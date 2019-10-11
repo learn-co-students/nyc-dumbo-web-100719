@@ -23,7 +23,7 @@
 * Create a Tweet class. The class should have these methods:
   ✅ `Tweet#message` that returns a string
   ✅ `Tweet#user` that returns an instance of the user class
-  * `Tweet.all` that returns an array of all the Tweet instances created.
+  ✅ `Tweet.all` that returns an array of all the Tweet instances created.
   ✅ `Tweet#username` that returns the username of the tweet's user
 
 # Questions to ask when trying to figure out the relationships between two things
