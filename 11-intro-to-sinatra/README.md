@@ -1,7 +1,7 @@
 Intro to Sinatra & MVC
 ===
 
-## SWBATs
+## Students Will Be Able To s
 
 * Explain the MVC pattern and give an example
 * Explain how web frameworks (like Sinatra) use the MVC pattern and why
@@ -33,9 +33,30 @@ Intro to Sinatra & MVC
 
 ### New!
 
-- *MVC*:
-- *RESTful Routing (REST)*:
+- *MVC*: 
+  Model -> classes for our apps, the backend, deals with data, mod 1 stuff
+  View -> HTML files, the frontend, what the user sees and how they interact with the app
+  Controller -> the go between between model and view
+
+  why MVC?
+  - debugging, break down tasks by category
+  - help us to dynamic websites
+  - make readable and beautiful code
+  - separation of concerns
+
+  IDEAS
+  Meetup -> events
+
+
 - *convention over configuration*: 
+  1. don't have think of everything, fewer decisions to make
+  2. write less code
+
+- *RESTful Routing (REST)*:
+  - REpresentational State Transfer
+    - REpresentational: HTML, the view, the reponse
+    - State: the current state of the data in your application
+
 
 ## Deliverables
 
