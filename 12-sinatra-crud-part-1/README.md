@@ -13,6 +13,8 @@ Sinatra (CR)UD Part 1
 ## Review
 - Using ERB templates
 - Convention over configuration
+  - naming things after a certain standard, consistent variables/paths
+  - proper folder/project structure helps organize code, easier to debug
 
 ## Outline
 - Part 1.1: review our code from yesterday, update our index view and create a show view
@@ -25,12 +27,12 @@ Sinatra (CR)UD Part 1
   - Search form!
 
 ## REST & CRUD
-- [ ] Create
-  - [ ] GET '/events/new' -> Show the user a form to create a new event
-  - [ ] POST '/events' -> Create a new event in our database
-- [ ] Read
-  - [ ] GET '/events' -> Show all events
-  - [ ] GET '/events/:id' -> Show one event
+- [x] Create
+  - [x] GET '/events/new' -> Show the user a form to create a new event
+  - [x] POST '/events' -> Create a new event in our database
+- [x] Read
+  - [x] GET '/events' -> Show all events
+  - [x] GET '/events/:id' -> Show one event
 - [ ] Update
   - [ ] GET '/events/:id/edit' -> Show the user a form to edit an existing event event
   - [ ] PATCH '/events/:id' -> Update the event in our database
