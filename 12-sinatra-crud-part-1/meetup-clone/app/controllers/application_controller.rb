@@ -11,20 +11,12 @@ class ApplicationController < Sinatra::Base
     erb :welcome
   end
 
-  # TODO: show a list of all events
+  # show a list of all events
   get "/events" do
     # get all the events
     @events = Event.all
     
-    # make them into HTML
-    # str = ""
-    # events.each do |event|
-    #   str += event.name
-    # end
-    # str
-    # send a response
-    # @title = "All Events"
-
+    # render the view
     erb :"events/index"
   end
 
