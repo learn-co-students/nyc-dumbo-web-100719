@@ -1,0 +1,15 @@
+<h1>Editing <%= @event.name %></h1>
+
+<form method="POST" action="/events/<%= @event.id %>">
+  <input type="hidden" name="_method" value="PUT">
+  <label for="name_field">Name</label>
+  <input type="text" name="event[name]" value="<%= @event.name %>">
+  <label for="location_field">Where</label>
+  <input type="text" name="event[location]" value="<%= @event.location %>">
+  <label for="date_field">When</label>
+  <input type="text" name="event[date]" value="<%= @event.date %>">
+  <label for="headcount_field">How Many?</label>
+  <input type="number" name="event[headcount]" value="<%= @event.headcount %>">
+
+  <input type="submit" value="Submit!">
+</form>

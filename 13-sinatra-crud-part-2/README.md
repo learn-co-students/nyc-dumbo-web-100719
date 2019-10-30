@@ -28,9 +28,9 @@ Sinatra CR(UD)
 - [x] Read
   - [x] GET '/events' -> Show all events
   - [x] GET '/events/:id' -> Show one event
-- [ ] Update
-  - [ ] GET '/events/:id/edit' -> Show the user a form to edit an existing event event
-  - [ ] PATCH '/events/:id' -> Update the event in our database
+- [x] Update
+  - [x] GET '/events/:id/edit' -> Show the user a form to edit an existing event event
+  - [x] PUT '/events/:id' -> Update the event in our database
 - [ ] Delete
   - [ ] DELETE '/events/:id' -> Delete the event from our database
 

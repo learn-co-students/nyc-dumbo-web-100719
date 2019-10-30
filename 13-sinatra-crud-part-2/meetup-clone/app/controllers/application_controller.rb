@@ -5,6 +5,7 @@ class ApplicationController < Sinatra::Base
   configure do
     set :public_folder, 'public'
     set :views, 'app/views'
+    set :method_override, true # this will tell our application to look for the _method key in params
   end
 
   get "/" do
@@ -43,5 +44,34 @@ class ApplicationController < Sinatra::Base
     # response
     erb :"events/show"
   end
+
+  get '/events/:id/edit' do
+    # model
+    @event = Event.find(params[:id])
+    # response
+    erb :"events/edit"
+  end
+
+  put '/events/:id' do
+    # find the instance of the event
+    event = Event.find(params[:id])
+    # perform an update on the instance using params
+    # make sure it saves!
+    event.update(params[:event])
+
+    # response
+    redirect "/events/#{event.id}"
+  end
+
+  # {
+  #   "_method"=>"PUT",
+  #   "id"=>"5",
+  #   "event" => {
+  #     "name"=>"something",
+  #     "location"=>"somewhere",
+  #     "date"=>"sometime",
+  #     "headcount"=>"1"
+  #   }
+  # }
 
 end
