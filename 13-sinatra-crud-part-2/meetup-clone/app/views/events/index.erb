@@ -1,0 +1,20 @@
+<h1>All Events</h1>
+
+<%= "evaluate Ruby code AND print it to the HTML" %>
+<% "evaluate Ruby code and NOT print it to the HTML" %>
+
+<% if @some_variable == true %>
+  <p>display it!</p>
+<% end %>
+
+<%# is just for comments %>
+<!-- this is an HTML comment -->
+<ol>
+  <% @events.each do |event| %>
+    <li>
+      <strong>
+        <a href="/events/<%= event.id %>"><%= event.name %></a>
+      </strong> | <%= event.date %>
+    </li>
+  <% end %>
+</ol>
