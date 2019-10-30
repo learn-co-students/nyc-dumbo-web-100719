@@ -20,43 +20,28 @@ class ApplicationController < Sinatra::Base
     erb :"events/index"
   end
 
-  # show a single event
-  # get '/events/1' do
-  #   # model?
-  #   @event = Event.find(1)
-
-  #   # response?
-  #   erb :"events/show"
-  # end
-
-  # get '/events/2' do
-  #   # model?
-  #   @event = Event.find(2)
-
-  #   # response?
-  #   erb :"events/show"
-  # end
+  # create an event
   get '/events/new' do
+
+    # response
     erb :"events/new"
   end
 
-  get '/events/:id' do
-    # model?
-    @event = Event.find(params[:id])
-
-    # response?
-    erb :"events/show"
-  end
-
   post '/events' do
-    # model, create a new Event
+    # model
     @event = Event.create(params)
 
-    # respond
+    # response
     redirect "/events/#{@event.id}"
-
-    # erb :"events/show"
   end
 
+  # show a single event
+  get '/events/:id' do
+    # model
+    @event = Event.find(params[:id])
+
+    # response
+    erb :"events/show"
+  end
 
 end
