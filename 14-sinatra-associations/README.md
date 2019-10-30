@@ -8,11 +8,13 @@ Sinatra Relationships
 - Use the `<select>` tag to display a dropdown menu
 
 ### Outline
-- [ ] Wrap up CRUD -> DELETE method
-- [ ] Add a second model to our domain
-- [ ] Come up with user stories for our application and see how they can be solved with REST
-- [ ] List the instances related model on the show page for the class that `has_many` of the other class
-- [ ] Create the `new` and `create` routes for the other model (with `belongs_to`)
+- [x] Wrap up CRUD -> DELETE method
+- [x] Add a second model to our domain
+- [x] Come up with user stories for our application and see how they can be solved with REST
+  - [x] As a user, I would like to see all the guests on the show page for an event
+  - [x] As a user, I would like to be able to sign up guests for events
+- [x] List the instances related model on the show page for the class that `has_many` of the other class
+- [x] Create the `new` and `create` routes for the other model (with `belongs_to`)
 
 ### Corneal Generators
 

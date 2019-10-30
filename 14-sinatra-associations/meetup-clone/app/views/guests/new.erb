@@ -1,0 +1,13 @@
+<h1>RSVP to the Event</h1>
+<form method="POST" action="/guests">
+  <input type="text" name="name" placeholder="What's your name?">
+  <input type="text" name="email" placeholder="Email?">
+  <select name="event_id">
+    <% @events.each do |event| %>
+      <option value="<%= event.id %>">
+        <%= event.name %>
+      </option>
+    <% end %>
+  </select>
+  <input type="submit" value="RSVP">
+</form>

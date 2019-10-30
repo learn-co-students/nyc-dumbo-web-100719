@@ -4,6 +4,20 @@
   Date: <%= @event.date %>
 </p>
 <p>
-  <%= "🤠" * @event.headcount %>
+  <%= "🤠" * @event.guests.count %>
 </p>
 <a href="/events/<%= @event.id %>/edit">Edit</a>
+
+<%= link_to("Edit", "/events/#{@event.id}/edit") %>
+
+<form method="POST" action="/events/<%= @event.id %>">
+  <input type="hidden" name="_method" value="DELETE">
+  <input type="submit" value="Get rid of this stupid event.">
+</form>
+
+<h2>Guest List</h2>
+<ul>
+  <% @event.guests.each do |guest| %>
+    <li><%= guest.name %></li>
+  <% end %>
+</ul>
