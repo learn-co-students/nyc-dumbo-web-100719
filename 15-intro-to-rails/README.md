@@ -1,5 +1,8 @@
 # Intro to Rails
 
+## note
+ - tell your coach if you're going off the floor!
+ 
 ## Objectives
 
 * Create a new Rails application

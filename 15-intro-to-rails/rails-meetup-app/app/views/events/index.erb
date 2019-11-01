@@ -1,0 +1,15 @@
+<h1>All Events</h1>
+
+
+
+<ol>
+  <% @events.each do |event| %>
+    <li>
+      <strong>
+        <%= link_to event.name, "/events/#{event.id}" %>
+        <%= link_to event.name, event_path(event.id) %>
+        <%= link_to event.name, event %>
+      </strong>
+    </li>
+  <% end %>
+</ol>

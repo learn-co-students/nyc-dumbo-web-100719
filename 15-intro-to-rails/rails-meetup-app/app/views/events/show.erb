@@ -1,0 +1,15 @@
+<h1><%= @event.name %></h1>
+<p>
+  Address: <%= @event.location %>
+</p>
+<p>
+  <%= "🤠" * @event.headcount %>
+</p>
+<a href="/events/<%= @event.id %>/edit">Edit</a>
+
+<%= link_to("something else", "/events/#{@event.id}/edit") %>
+
+<form method="POST" action="/events/<%= @event.id %>">
+  <input type="hidden" name="_method" value="DELETE">
+  <input type="submit" value="Get rid of this stupid event.">
+</form>
