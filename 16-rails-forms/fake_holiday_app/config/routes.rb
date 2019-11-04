@@ -5,7 +5,9 @@ Rails.application.routes.draw do
   
   # get "/holidays/new", to: "holidays#new"
   # post "/holidays", to: "holidays#create"
-  resources :holidays, only: [:index, :show, :new, :create]
+  # get "/holidays/:id/edit", to: "holidays#edit"
+  # patch "/holidays/:id", to: "holidays#update"
+  resources :holidays #, only: [:index, :show, :new, :create, :edit, :update, :destroy]
   # get "/holidays", to: "holidays#index"
   # get "/holidays" => "holidays#index"
 end

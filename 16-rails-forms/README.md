@@ -18,19 +18,19 @@ Fake Holiday
 Build full CRUD for one model
 - Create our model
 - Work on CRUD, focus on routes and ActionView helpers
-  - [ ] Read
-    - Review `link_to` and path helpers
-  - [ ] Create
-    - HTML form vs `form_tag` vs `form_for`
-    - Strong Params
-  - [ ] Update
-    - reusable `form_for`
-  - [ ] Delete
+  - [x] Read
+    - [x] Review `link_to` and path helpers
+  - [x] Create
+    - [x] HTML form vs `form_tag` vs `form_for`
+    - [x] Strong Params
+  - [x] Update
+    - [x] reusable `form_for`
+  - [x] Delete
     - `button_to`
 
 If there's time:
-- [ ] Refactor controller using `before_action`
-- [ ] Refactor forms to use a partial view
+- [x] Refactor controller using `before_action`
+- [x] Refactor forms to use a partial view
 
 ### Generators
 
