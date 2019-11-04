@@ -1,0 +1,40 @@
+<h2>HTML Form</h2>
+<form method="post" action="/holidays">
+  <label for="name">Name</label>
+  <input type="text" name="name">
+  <input type="text" name="date">
+  <input type="text" name="description">
+  <input type="checkbox" name="gifts_needed">
+  <input type="submit" value="create">
+</form>
+
+<h2>form_tag</h2>
+<%= form_tag "/holidays" do %>
+  <%= label_tag :name %>
+  <%= text_field_tag :name %>
+  <%= text_field_tag :date %>
+  <%= text_field_tag :description %>
+  <%= check_box_tag :gifts_needed %>
+  <%= submit_tag %>
+<% end %>
+
+<h2>form_for</h2>
+<%= form_for @holiday do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :date %>
+  <%= f.text_field :date %>
+
+  <%= f.label :description %>
+  <%= f.text_field :description %>
+
+  <%= f.label :gifts_needed %>
+  <%= f.check_box :gifts_needed %>
+  
+  <%= f.submit %>
+<% end %>
+
+
+
+

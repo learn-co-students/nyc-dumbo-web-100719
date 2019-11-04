@@ -8,19 +8,29 @@ Rails Forms
 - Use ActionView helpers like `link_to`, `button_to` and `form_for` to help write HTML
 - Use strong params to allow creating/updating models with mass assignment
 
+Fake Holiday
+- name
+- date
+- description
+- gifts_needed (bool)
+
 ## Outline
 Build full CRUD for one model
 - Create our model
 - Work on CRUD, focus on routes and ActionView helpers
+  - [ ] Read
+    - Review `link_to` and path helpers
   - [ ] Create
     - HTML form vs `form_tag` vs `form_for`
     - Strong Params
-  - [ ] Read
-    - Review `link_to` and path helpers
   - [ ] Update
     - reusable `form_for`
   - [ ] Delete
     - `button_to`
+
+If there's time:
+- [ ] Refactor controller using `before_action`
+- [ ] Refactor forms to use a partial view
 
 ### Generators
 
