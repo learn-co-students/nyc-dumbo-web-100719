@@ -1,0 +1,6 @@
+<h1>All the Fake Holidays</h1>
+<% @holidays.each do |holiday| %>
+  <p>
+    <%= link_to(holiday.name, holiday) %>
+  </p>
+<% end %>
