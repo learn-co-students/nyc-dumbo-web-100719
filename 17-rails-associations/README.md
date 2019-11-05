@@ -10,6 +10,9 @@ Rails Associations
 ## Outline
 - Process & What to review
 
+- `before_action`, partials, application.html.erb
+- `link_to` helper
+
 - [ ] Add an additional model to our domain
   - [ ] Create relationship using ActiveRecord
   - [ ] Use information from the association in our views
