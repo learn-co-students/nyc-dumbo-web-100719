@@ -1,0 +1,16 @@
+<h1><%= @holiday.name %></h1>
+<p>
+  Date: <%= @holiday.date %>
+</p>
+<p>
+  <%= @holiday.description %>
+</p>
+
+<%= button_to "Delete this holiday", @holiday, method: :delete %>
+
+<h2>All Parties</h2>
+<% @holiday.parties.each do |party| %>
+  <p>
+    <%= link_to party.location, party %>
+  </p>
+<% end %>
