@@ -1,4 +1,11 @@
 <h1><%= @holiday.name %></h1>
+
+<% if @success %>
+  <p style="color: green;">
+    <%= @success %>
+  </p>
+<% end %>
+
 <p>
   Date: <%= @holiday.date %>
 </p>

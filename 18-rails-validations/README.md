@@ -1,7 +1,9 @@
 Rails Validations
 ===
 
-## Lecture Note!
+## Before we start
+- [ ] Talk about lectures/floor time
+- [ ] Plan for tomorrow
 
 ## SWBATs
 - Understand the difference between client-side and server-side validations
@@ -18,11 +20,30 @@ In other words, how do we protect our database from the typical user:
 
 
 ## Outline
-- Add a new attribute to our model to practice `rails g migration`
-- Add validations and review ActiveRecord documentation
-- Add custom validations
-- Use validations in our controller
-- Render validation error messages
+- [ ] Add a new attribute to our model to practice `rails g migration`
+- [ ] Add validations and review ActiveRecord documentation
+- [ ] Add custom validations
+- [ ] Use validations in our controller
+- [ ] Render validation error messages
+
+Client side
+- what the user knows
+- wrong input, show an error
+- in browser, before any request is made to the server
+- input field types
+- faster, less server traffic, quicker response to the user
+- less dependable
+
+Server side
+- tied to the server, internet based
+- something invalid, communicate to the database
+- in our models, check each attribute and specify what we consider valid data
+
+
+
+
+
+
 
 
 ### Server Side Validation vs Client Side Validation

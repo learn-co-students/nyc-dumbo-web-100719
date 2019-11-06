@@ -14,7 +14,7 @@ class HolidaysController < ApplicationController
   # set_holiday
   def show
     # model
-
+    @success = flash[:pat_on_the_back]
     # response
     # render :show
   end
@@ -40,6 +40,7 @@ class HolidaysController < ApplicationController
   # set_holiday
   def edit
     # model
+    
 
     # reponse
     # render :edit
@@ -51,8 +52,14 @@ class HolidaysController < ApplicationController
     # model
     @holiday.update(holiday_params)
 
+    if @holiday.valid?
+      redirect_to @holiday
+    else
+      flash[:bad_job] = @holiday.errors.full_messages
+      redirect_to "/holidays/#{@holiday.id}/edit"
+    end
+
     # response
-    redirect_to @holiday
   end
 
   # delete /holidays/:id

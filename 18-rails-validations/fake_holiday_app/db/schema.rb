@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_05_161240) do
+ActiveRecord::Schema.define(version: 2019_11_06_194545) do
 
   create_table "holidays", force: :cascade do |t|
     t.string "name"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2019_11_05_161240) do
     t.integer "holiday_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "name"
     t.index ["holiday_id"], name: "index_parties_on_holiday_id"
   end
 
