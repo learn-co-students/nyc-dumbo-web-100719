@@ -3,7 +3,7 @@ class Holiday < ApplicationRecord
 
   def random_gif
     adapter = Giphy::Adapter.new
-    response = adapter.search(name)
+    response = adapter.search("#{source} #{name}")
     return "" unless response && response["data"].length > 0
     random_gif = response["data"].sample
     random_gif["images"]["fixed_height"]["url"]
@@ -12,5 +12,5 @@ class Holiday < ApplicationRecord
   def name_with_description
     "#{self.name} #{self.description}"
   end
-  
+
 end

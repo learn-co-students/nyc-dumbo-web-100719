@@ -36,11 +36,16 @@ end
 
 # let's add some parties too
 Holiday.all.each do |holiday|
+  begin
+    date = Date.parse("#{holiday.date} 2019")
+  rescue
+    date = Faker::Date.forward(days: 365)
+  end
   rand(1..3).times do
     holiday.parties.create(
       name: "#{Faker::Name.first_name}'s #{holiday.name} Party",
       location: Faker::Address.full_address, 
-      date: Faker::Date.forward(days: 365), 
+      date: date,
       headcount: rand(0..100)
     )
   end
