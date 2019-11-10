@@ -1,0 +1,31 @@
+<h1><%= @holiday.name %></h1>
+
+<div class="info-page">
+  <div class="info-page__image">
+    <%= image_tag @holiday.random_gif %>
+  </div>
+  <div class="info-page__main">
+    <p>
+      Source: <%= @holiday.source %>
+    </p>
+    <p>
+      Date: <%= @holiday.date %>
+    </p>
+    <p>
+      <%= @holiday.description %>
+    </p>
+    <div class="info-page__actions">
+      <%= button_to "Edit", edit_holiday_path(@holiday), method: :get %>
+      <%= button_to "Delete", @holiday, method: :delete %>
+    </div>
+  </div>
+</div>
+
+<h2>All Parties</h2>
+<ul class="info-page__list">
+  <% @holiday.parties.each do |party| %>
+    <li>
+      <%= link_to party.name, party %>
+    </li>
+  <% end %>
+</ul>

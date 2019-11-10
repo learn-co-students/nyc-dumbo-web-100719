@@ -1,0 +1,28 @@
+<h1>let's party</h1>
+
+<% if @errors %>
+  <ol>
+    <% @errors.each do |error| %>
+      <li><%= error %></li>
+    <% end %>
+  </ol>
+<% end %>
+
+<%= form_for @party do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <br>
+  <%= f.label :location %>
+  <%= f.text_field :location %>
+  <br>
+  <%= f.label :date %>
+  <%= f.text_field :date %>
+  <br>
+  <%= f.label :headcount %>
+  <%= f.number_field :headcount %>
+  <br>
+  <%= f.label :holiday_id %>
+  <%= f.collection_select(:holiday_id, @holidays, :id, :name_with_description) %>
+  <br>
+  <%= f.submit %>
+<% end %>

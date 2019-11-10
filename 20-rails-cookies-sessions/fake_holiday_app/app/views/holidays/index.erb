@@ -1,0 +1,9 @@
+<h1>Welcome to Fake Holidaytown</h1>
+<div class="holidays">
+  <% @holidays.each do |holiday| %>
+    <%= link_to holiday, class: "card" do %>
+      <h4><%= holiday.name %></h4>
+      <p><%= holiday.date %></p>
+    <% end %>
+  <% end %>
+</div>
