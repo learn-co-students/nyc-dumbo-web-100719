@@ -13,9 +13,6 @@ class HolidaysController < ApplicationController
   # get /holidays/:id
   # set_holiday
   def show
-    # model
-    @success = flash[:pat_on_the_back]
-    # response
     # render :show
   end
 

@@ -22,7 +22,7 @@
 }
 
 /* snowy */
-html:before { 
+html.snowy:before { 
   content:''; 
   position:fixed; 
   z-index:-1; 
@@ -35,7 +35,7 @@ html:before {
   -webkit-animation:snow-1 10s linear infinite; 
   animation:snow-1 10s linear infinite;
 }
-html:after { 
+html.snowy:after { 
   content:''; 
   position:fixed; 
   z-index:-1; 
@@ -47,7 +47,7 @@ html:after {
   -webkit-animation:snow-2 10s linear infinite; 
   animation:snow-2 10s linear infinite;
 }
-body:after { 
+html.snowy > body:after { 
   content:''; 
   position:fixed; 
   z-index:-1; 
