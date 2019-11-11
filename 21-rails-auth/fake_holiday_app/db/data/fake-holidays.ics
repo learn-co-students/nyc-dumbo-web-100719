@@ -1,0 +1,1674 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Atlas Obscura's Pop Culture Holiday Calendar
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Did you miss First Contact Day? Forget what day Festivus falls
+  on? Have no idea how to celebrate Unification Day? Well\, worry no more! I
+ mport this calendar to add all the best fictional holidays from TV\, film\,
+  books\, and video games\, so you can celebrate along with your pop culture
+  passions\, all year long. Have a suggestion for a fictional holiday that f
+ alls on a specific date that we missed? Email it to eric@atlasobscura.com!
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20161223
+DTEND;VALUE=DATE:20161224
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:p7t12f0n5kl9c097j73vv2dbo8@google.com
+CREATED:20160602T212352Z
+DESCRIPTION:Serenity now! Festivus was created by Frank Costanza as a surly
+  stand-in for the merriment of Christmas. \n\nTo celebrate: Set up the Fest
+ ivus Pole and commence the Feats of Strength! \n\n(Seinfeld\, TV Show\, 198
+ 9 - 1998)
+LAST-MODIFIED:20160603T192711Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Festivus (Seinfeld)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20160920
+DTEND;VALUE=DATE:20160921
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:tg5jdrdaf2renng9pmhivioh8c@google.com
+CREATED:20160602T212849Z
+DESCRIPTION:This holiday marks the end of the devastating Unification War t
+ hat saw the defeat of the Browncoat rebels by the Alliance. It is celebrate
+ d by pro-Alliance supporters\, and rued by the Browncoats who survived the 
+ fighting. \n\nTo celebrate: Put on a brown coat\, and binge watch all of Fi
+ refly and Serenity.\n\n(Firefly\, TV Show\, 2002-2003)
+LAST-MODIFIED:20160603T192730Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Unification Day (Firefly)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20160622
+DTEND;VALUE=DATE:20160623
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:qncr6om7tairk569gu30gim444@google.com
+CREATED:20160602T220509Z
+DESCRIPTION:In the town of Gravity Falls\, Oregon\, they love Halloween so 
+ much that they celebrate it twice a year! Once on the traditional day\, and
+  again in the middle of summer on Summerween. Put together a costume\, and 
+ carve a Jack-O-Melon\, lest the Summerween Trickster get you for your lack 
+ of spirit. \n\nTo celebrate: Carve a Jack-O-Melon out of a honey dew or a c
+ antaloupe\, and solve a mystery. \n\n(Gravity Falls\, TV Show\, 2012 - 2016
+ ) 
+LAST-MODIFIED:20160603T192749Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Summerween (Gravity Falls)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20161117
+DTEND;VALUE=DATE:20161118
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:sl7rmlendthn9cn2l5lsvi8k9o@google.com
+CREATED:20160603T202116Z
+DESCRIPTION:Mainly celebrated on the Wookiee homeworld of Kashyyyk\, Life D
+ ay honors the rich bio-diversity of the planet. It is a time of togethernes
+ s and song\, and most observant Wookiees will don a ceremonial robe for the
+  occasion. \n\nTo celebrate: Get your hands on a bootleg copy of the Star W
+ ars Holiday Special (or watch it on YouTube\, grandpa)\, and simply bask in
+  the awkward TV special that set the standard for embarrassing genre tie-in
+ s. \n\n(Star Wars Holiday Special\, TV special\, 1978)
+LAST-MODIFIED:20160603T204250Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Life Day (Star Wars)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20161225
+DTEND;VALUE=DATE:20161226
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:cog1j1jvcp9gg24k18kksu3oik@google.com
+CREATED:20160603T212118Z
+DESCRIPTION:Eons before the birth of Jesus Christ\, December 25th was known
+  as Refrigerator Day\, a general holiday celebrated by blue-collar dinosaur
+ s like the Sinclair family\, in honor of the greatest invention of the time
+ \, the refrigerator. Gifts are exchanged and festivities generally resemble
+  what modern man would call Christmas. \n\nTo celebrate: Raid the fridge\, 
+ and spend your Christmas repeating the show's famous catchphrase\, "Not the
+  mama!"\, to the horror and delight of your family members.\n\n(Dinosaurs\,
+  TV series\, 1991-1994)
+LAST-MODIFIED:20160603T212118Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Refrigerator Day (Dinosaurs)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20161112
+DTEND;VALUE=DATE:20161113
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:tc6u9qmvgt9qn0f42l9bhrbm1s@google.com
+CREATED:20160606T163048Z
+DESCRIPTION:Great Scott! On the evening of November 11th\, 1955\, the Hill 
+ Valley Courthouse was struck by lightning\, stopping the ornamental clock. 
+ This was also the day that Hill Valley High School held an eventful "Enchan
+ tment Under The Sea" dance\, a frequent destination for time-traveller Mart
+ y McFly. \n\nTo celebrate: Have a 1955 vs. 1985 dance party where you can s
+ creen the Back To The Future Trilogy. \n\n(Back To The Future Series\, Film
+  series\, 1985-1990)  
+LAST-MODIFIED:20160606T163812Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Anniversary of the Hill Valley Lightning Strike (Back To The Future
+  Trilogy)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20160829
+DTEND;VALUE=DATE:20160830
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:93blpujonov8tpbnhfc2thd5us@google.com
+CREATED:20160606T164456Z
+DESCRIPTION:On August 29\, 1997\, at 2:14 AM\, EST\, Skynet becomes self-aw
+ are. Humans quickly try to shut it down\, but in a desperate act of defense
+ \, Skynet launches nuclear missiles at Russia\, triggering a nuclear war th
+ at destroys the world. This was the day the human race lost against what wo
+ uld become the Terminators. Anybody not wearing 2 million sunblock is gonna
+  has a real bad day.\n\nTo celebrate: Turn off all of your computers and el
+ ectronic devices so that Skynet cannot take them over. Have a Judgement Day
+  barbecue\, and be sure to wear sunblock. \n  \n(Terminator 2: Judgement Da
+ y\, Film\, 1991) \n
+LAST-MODIFIED:20160606T165157Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Judgement Day (Terminator 2)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20160922
+DTEND;VALUE=DATE:20160923
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:6lgs26vuu3l9h36eg4omt6m82g@google.com
+CREATED:20160606T171626Z
+DESCRIPTION:A merry Hobbit's Day to you all! Let all of The Shire eat drink
+  and be joyful as we celebrate the birthday of two very important and very 
+ troublesome Baggins'\, Bilbo and Frodo. Join the hobbits of The Shire for f
+ easting\, fireworks\, and firing up some pipeweed in recreations of Bilbo's
+  famous final 111th birthday celebration. \n\nTo celebrate: This day is act
+ ually officially Hobbit Day! Hold a raucous hobbit party where shoes aren't
+  allowed. \n\n(The Lord of the Rings series\, Books\, Films\, etc. 1954 - C
+ urrent)
+LAST-MODIFIED:20160606T171626Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hobbit Day (The Lord of the Rings)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20160616
+DTEND;VALUE=DATE:20160617
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:hbct09t2hi3ib58o34lamvcaq4@google.com
+CREATED:20160606T173557Z
+DESCRIPTION:Today we celebrate a simple day in the life of regular people\,
+  like Leopold Bloom and Stephen Dedelus who on June 16th\, 1904\, had a day
+  in Dublin\, Ireland. \n\nTo celebrate: Bloomsday is widely recognized lite
+ rary holiday honoring both Ulysses as a work\, and James Joyce as an author
+ . Find a local Bloomsday celebration\, or simply spend a day wandering your
+  town\, and experiencing life.\n\n(Ulysses\, Book\, 1922)
+LAST-MODIFIED:20160606T175638Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Bloomsday (Ulysses)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20160913
+DTEND;VALUE=DATE:20160914
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:18sicqa35p0csm8dhlo7jfgj9g@google.com
+CREATED:20160606T182140Z
+DESCRIPTION:In the far future world of 1999\, the Earth established a base 
+ on the moon\, but unfortunately they were also storing volatile nuclear was
+ te on the far side of the moon. On September 13th\, 1999\, the waste explod
+ ed\, sending the moon and Moonbase Alpha\, and its 311 inhabitants\, careen
+ ing into space.\n\nTo celebrate: Make bright green\, "nuclear waste" cockta
+ ils\, and binge both seasons of Space: 1999.\n\n(Space: 1999\, TV series\, 
+ 1975-1977) 
+LAST-MODIFIED:20160606T182644Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Breakaway (Space 1999)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20161015
+DTEND;VALUE=DATE:20161016
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:k8pqqvk9udlqarbr0ui48kp6d4@google.com
+CREATED:20160603T212238Z
+DESCRIPTION:Even a grouch needs a holiday\, and America's cantankerous\, ga
+ rbage-loving monsters have chosen October 15th as National Grouch Day. This
+  is a day to celebrate grouches and grouchiness in all its forms. \n\nTo ce
+ lebrate: Today\, it is officially okay\, and even encouraged to be in a bad
+  mood. go ahead and give your friends and family dirty looks. \n\n(Sesame S
+ treet\, TV series\, 1969 - current)
+LAST-MODIFIED:20160606T200301Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:National Grouch Day (Sesame Street)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20161019
+DTEND;VALUE=DATE:20161020
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:am8u52m3e117d58kld2b11tajc@google.com
+CREATED:20160606T200324Z
+DESCRIPTION:Technically\, Durin's Day takes place on "the first day of the 
+ last moon of Autumn on the threshold of Winter." In the modern world\, this
+  was identified by historian J.R.R. Tolkien as October 19th. In addition to
+  being the Dwarven New Year\, the secret entrance to The Lonely Mountain ca
+ n only be seen by the last light of the sun on that day. \n\nTo celebrate: 
+ Make your own dwarven map to The Lonely Mountain's secret entrance by using
+  lemon juice ink\, then go on a quest!\n\n(The Hobbit\, Book\, 1937)  
+LAST-MODIFIED:20160606T201415Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Durin's Day (The Hobbit)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20160616
+DTEND;VALUE=DATE:20160617
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:qsgapn4mtdlma53226ea4df528@google.com
+CREATED:20160606T191224Z
+DESCRIPTION:Every year aboard the USS Enterprise\, June 16th is celebrated 
+ as Captain Picard's Day\, honoring the famed Starfleet officer. The childre
+ n on the ship make arts and crafts in honor of the captain\, even if he doe
+ sn't like it. No matter what\, he's a role model. \n\nTo celebrate: Heat up
+  a cup of Earl Grey tea\, hot\, and make some Captain Picard fan art of you
+ r own. \n\n(Star Trek: The Next Generation\, TV series\, 1987-1994)
+LAST-MODIFIED:20160607T201434Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Captain Picard's Day (Star Trek: The Next Generation)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160112
+DTEND;VALUE=DATE:19160113
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:avpongr4kp7007cprlgd6r5blo@google.com
+CREATED:20160606T210116Z
+DESCRIPTION:Depending on whether you are going by the book or the movie\, t
+ he super-intelligent\, self-aware computer HAL 9000 was first activated on 
+ this date in 1992 or 1997. Either way\, the unfortunate AI would go on to l
+ ose its digital mind and nearly murder the entire crew of the Discovery. \n
+ \nTo celebrate: Sing "Daisy Bell\," to yourself\, and dread the rise of art
+ ificial intelligence.\n\n(2001: A Space Odyssey\, Book\, 1968) 
+LAST-MODIFIED:20160607T204119Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Activation of HAL 9000 (2001: A Space Odyssey)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170119
+DTEND;VALUE=DATE:19170120
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:odln7d30am1gpuscdqugdh2tjc@google.com
+CREATED:20160606T184729Z
+DESCRIPTION:On this day in 1981\, historic vampire slayer Buffy Summers was
+  born. She would go on to save the world from the supernatural forces of da
+ rkness a number of times. Her birthday is the perfect time to honor her con
+ tributions to the planet not being overrun by evil vampires.\n\nTo celebrat
+ e: Recreate The Bronze with some non-alcoholic drinks\, a playlist full of 
+ Dingoes Ate My Baby\, Cibo Matto\, and Sprung Monkey\, and projected clips 
+ of Buffy's fights.\n\n(Buffy the Vampire Slayer\, TV series\, 1997-2003) 
+LAST-MODIFIED:20160607T204137Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Buffy Summers' Birthday (Buffy The Vampire Slayer)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170213
+DTEND;VALUE=DATE:19170214
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:304avfangvcn2pqm11ihfeaep0@google.com
+CREATED:20160603T204748Z
+DESCRIPTION:Forget scrambling to find yourself a valentine\, get together w
+ ith your best lady friends and celebrate Galentine's Day on the day before 
+ Valentine's Day. Invented by Leslie Knope of Pawnee\, Illinois\, this holid
+ ay is all about celebrating the truly important relationships in your life\
+ , the ones you have with your friends.\n\nTo celebrate: Make gifts for your
+  best gal pals and go out on the town. \n\n(Parks and Recreation\, TV serie
+ s\, 2009-2015) 
+LAST-MODIFIED:20160607T204216Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Galentine's Day (Parks and Recreation)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170318
+DTEND;VALUE=DATE:19170319
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:lgblgmmdafqivddqidmanqknj8@google.com
+CREATED:20160606T162049Z
+DESCRIPTION:Even in times of great trouble\, it is important to remember th
+ e world we left behind when the Cylons attacked Caprica\, so each year the 
+ members of the human fleet still celebrate the signing of the Articles of C
+ olonization on Colonial Day.\n\nTo celebrate: Drink some whiskey and play a
+  hand of poker with your friends\, just like the crew of the Galactica. Bew
+ are of Cylons. While the date of Colonial Day is unclear\, March 18th was t
+ he U.S. airdate of the episode\, "Colonial Day." \n\n(Battlestar Galactica\
+ , TV series\, 2004-2009)
+LAST-MODIFIED:20160607T204252Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Colonial Day (Battlestar Galactica)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170405
+DTEND;VALUE=DATE:19170406
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:09csntlpd18quv9dcgi5q5n22k@google.com
+CREATED:20160602T212030Z
+DESCRIPTION:This annual holiday celebrates the day in 2063 when Humans firs
+ t achieved warp speed and Vulcans made first contact with Earth\, paving th
+ e way for the creation of the Galactic Federation. \n\nTo celebrate: Make y
+ ourself a Vulcan Mind Meld (look up the recipe online\, and give everyone t
+ he Vulcan salute all day. Then live long and prosper. \n\n(Star Trek\, TV S
+ eries)
+LAST-MODIFIED:20160607T204311Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:First Contact Day (Star Trek)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170504
+DTEND;VALUE=DATE:19170505
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:jim7is6p51o69jk220kobehcso@google.com
+CREATED:20160606T193533Z
+DESCRIPTION:Developed by George and Lucille Bluth in an effort to deplete t
+ he stocks of party supplies the Hispanic community in Newport Beach would h
+ ave used for Cinco de Mayo. However\, the community ended up embracing the 
+ invented holiday was eventually embraced by the larger community and became
+  a great party in its own right. \n\nTo celebrate: Pretty much just celebra
+ te it like you would Cinco de Mayo\, just one day earlier\, being sure to g
+ ive Arrested Development's fourth season a second chance. It wasn't so bad.
+ \n\n(Arrested Development\, TV series\, 2003-2013)  
+LAST-MODIFIED:20160607T204343Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Cinco de Cuatro (Arrested Development)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170510
+DTEND;VALUE=DATE:19170511
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:rn2kq8m4p124cnqnlbjm6fv1ns@google.com
+CREATED:20160603T192110Z
+DESCRIPTION:Celebrate the driving out of snakes from the town of Springfiel
+ d by grabbing your whacking stick and clubbing some snakes to death. Fun fo
+ r the whole family\, no matter what killjoys like Lisa Simpson say. \n\nTo 
+ celebrate: Head to the zoo and check out the snakes. Don't actually club th
+ em. \n\n(The Simpsons\, TV Show\, 1989-current)
+LAST-MODIFIED:20160607T204405Z
+LOCATION:
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Whacking Day (The Simpsons)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170520
+DTEND;VALUE=DATE:19170521
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:ilges32is0t0ff22prqsr4s30k@google.com
+CREATED:20160606T204500Z
+DESCRIPTION:Once a poor flower girl\, with some elocution training by one D
+ r. Henry Higgins\, Eliza Doolittle tries to become the toast of London soci
+ ety. A rise she predicted previously while dreaming of Eliza Doolittle Day\
+ , when she would be celebrated by the whole country\, putting Higgins in hi
+ s place. \n\nTo celebrate: Now each May 20th is celebrated by fans of the m
+ usical. Put on your finest evening wear and sing the entire My Fair Lady so
+ undtrack at the top of your lungs. \n\n(My Fair Lady\, Film\, 1964)  
+LAST-MODIFIED:20160607T204422Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Eliza Doolittle Day (My Fair Lady)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160731
+DTEND;VALUE=DATE:19160801
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:nmllollaainij9pvqpoca9iu2k@google.com
+CREATED:20160607T203346Z
+DESCRIPTION:The Boy Who Lived started living on July 31st in 1980. The hero
+  of the wizarding world's birthday is still celebrated by all those that wa
+ nt to honor his remarkable life. \n\nTo celebrate: Begin rereading the Harr
+ y Potter books\, lest his heroic contributions be forgotten by us muggles a
+ s well. \n\n(Harry Potter series)
+LAST-MODIFIED:20160607T204456Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Harry Potter's Birthday (Harry Potter Series)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161230
+DTEND;VALUE=DATE:19161231
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:nibgnbsqqglbtt5q2cnbcunjd8@google.com
+CREATED:20160607T205836Z
+DESCRIPTION:In 2261\, the majority of the worlds in the League of Non-Align
+ ed Worlds gathered together to form the Interstellar Alliance. This Allianc
+ e changed the power make-up of the universe\, with the space station Babylo
+ n 5 as its central headquarters.\n\nTo celebrate: Create your own interstel
+ lar alliance out of friends\, and try to get them over to your house for a 
+ Babylon 5 viewing party.\n\n(Babylon 5\, TV series\, 1994-1998)
+LAST-MODIFIED:20160607T211231Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Interstellar Alliance Day (Babylon 5)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161225
+DTEND;VALUE=DATE:19161226
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:5kmr847e2n4tfpt85jfg5i74kg@google.com
+CREATED:20160607T212822Z
+DESCRIPTION:On Discworld\, Hogswatch is a winter solstice festival where th
+ e (somewhat sinister) winter god\, Hogfather\, is drawn in his boar-drawn s
+ leigh\, bringing gifts to all the children who believe in him. On Discworld
+ \, the holiday takes place on the 36th of December\, but on the Roundworld\
+ , the 25th will do.\n\nTo celebrate: If you're not too busy with Christmas\
+ , eat some ham and scare some children with tales of the Hogfather. \n\n(Ho
+ gfather\, Book\, 1996)\n
+LAST-MODIFIED:20160607T213659Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Hogswatch (Discworld Series)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170502
+DTEND;VALUE=DATE:19170503
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:pilhffv5sn5gjs1tjlnq455q9c@google.com
+CREATED:20160603T200805Z
+DESCRIPTION:Each May 2nd\, the wizarding world celebrates Harry Potter's vi
+ ctory\, and the end of the Second Wizarding War\, during the Battle of Hogw
+ arts.\n\nTo celebrate: Whip out your wand and slam some butterbeers! Partia
+ rimus!\n\n(Harry Potter series) 
+LAST-MODIFIED:20160608T120029Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Harry Potter Day (The Harry Potter Series)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20160625
+DTEND;VALUE=DATE:20160626
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:134gcj4vdmjb5f46finqkf2h6c@google.com
+CREATED:20160607T201316Z
+DESCRIPTION:It's June 25th\, which means it's time to get weird for Half-Ch
+ ristmas. Get wasted on kegnog and annoy your neighbors with out of season c
+ arols. You'll wake-up feeling gnar\, but it's a fair exchange.\n\nTo celebr
+ ate: Tell your boss that you have a rare disease for the day and get destro
+ yed. \n\n(Workaholics\, TV series\, 2011-current)
+LAST-MODIFIED:20160608T120157Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Half-Christmas (Workaholics)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160922
+DTEND;VALUE=DATE:19160923
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:c9o62i6if7l5q9lsahc0cipd78@google.com
+CREATED:20160607T214146Z
+DESCRIPTION:In 2004\, Oceanic Flight 815 was LOST while en route from Sydne
+ y\, Australia to Los Angeles\, California. When the plane disappeared\, all
+  passengers were considered LOST including Driveshaft bassist\, Charlie Pac
+ e and lottery winner\, Hugo "Hurley" Reyes.\n\nTo celebrate: Make a bunch o
+ f Dharma beers by relabeling a standard brand\, and then toast to all of th
+ e mysteries Lost could never solve.\n\n(Lost\, TV Series\, 2004-2010)  
+LAST-MODIFIED:20160608T160541Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Anniversary of the Crash of Oceanic Flight 815 (Lost)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161013
+DTEND;VALUE=DATE:19161014
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:qafgamsllc1iqqptqh0qipq58s@google.com
+CREATED:20160608T160701Z
+DESCRIPTION:The truth is that UFO-obsessed FBI agent Fox Mulder was born on
+  this day in 1961. While the shadow conspiracy that he worked so hard to ex
+ pose and put a stop to probably rues this day\, for the rest of us\, it's a
+  good reminder to honor all those truth seekers out there that keep us from
+  being controlled by aliens. \n\nTo celebrate: Crack open a pack of sunflow
+ er seeds and watch your favorite episodes of The X-Files. \n\n(The X-Files\
+ , TV Series\, 1993-2016)
+LAST-MODIFIED:20160608T161313Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Fox Mulder's Birthday (The X-Files)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160223
+DTEND;VALUE=DATE:19160224
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:0c6gl7oj0gfib7pr9bpv07akt0@google.com
+CREATED:20160608T161413Z
+DESCRIPTION:Bless the lord\, this day marks the birth of crack FBI agent an
+ d medical doctor\, Dana Scully. Through abductions\, alien babies\, flukeme
+ n\, cancer\, and all manner of threatening strangeness\, Agent Scully has r
+ emained a brave voice of reason in weird world. Let's all chip in and buy h
+ er an Apollo 11 keychain.\n\nTo celebrate: Open a bottle of wine and watch 
+ your favorite Scully-centric episodes of The X-Files. May we suggest Beyond
+  The Sea. \n\n(The X-Files\, TV Series\, 1993-2016)
+LAST-MODIFIED:20160608T162603Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Dana Scully's Birthday (The X-Files)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160508
+DTEND;VALUE=DATE:19160509
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:3qb7s212910uku831c2esp1tjk@google.com
+CREATED:20160608T162656Z
+DESCRIPTION:Katniss Everdeen\, hero of District 12\, multiple winner of The
+  Hunger Games\, and symbol of a revolution was born on May 8th. Few could h
+ ave predicted that this regular girl from District 12 would rise from her p
+ oor coal mining roots to overthrow the entire government of Panem. Remember
+  to throw up a three-finger salute today to honor Katniss' brave service.\n
+ \nTo celebrate: Offer yourself up as tribute to a binge marathon of all fou
+ r Hunger Games movies. \n\n(The Hunger Games\, Book Series\, 2008-2010) 
+LAST-MODIFIED:20160608T163404Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Katniss Everdeen's Birthday (The Hunger Games)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170321
+DTEND;VALUE=DATE:19170323
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:vthf1tmftujtpuci81uef09fdo@google.com
+CREATED:20160608T163918Z
+DESCRIPTION:Thanks to the 28th Amendment to the Constitution\, from 7 PM on
+  March 21st to 7 AM on March 22nd\, we will observe The Purge. During this 
+ time\, all emergency services will be suspended and nothing\, including tor
+ ture and murder\, is illegal. Thank you for contributing to the continued p
+ eace and prosperity of our great nation. \n\nTo celebrate: Bunker down in y
+ our house like The Purge is at the door\, and hold a series viewing party t
+ hat lasts all night.\n\n(The Purge\, Film Series\, 2013-Current)
+LAST-MODIFIED:20160608T165215Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:The Purge (The Purge Series)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170224
+DTEND;VALUE=DATE:19170225
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:46vf9gveuauongftp956ksv2kg@google.com
+CREATED:20160608T165756Z
+DESCRIPTION:On this day in 1989\, the body of Twin Peaks' local sweetheart\
+ , Laura Palmer\, was discovered\, having been recently murdered. Thanks to 
+ the arrival of FBI agent Dale Cooper\, the crime was eventually uncovered\,
+  but her death is still remembered as a tragic moment in Twin Peaks history
+ .\n\noT etarbelec: This is officially Twin Peaks Day! Bend your arms back\,
+  grab a damn good cup of coffee and slice of pie\, and run the Twin Peaks s
+ eries.\n\n(Twin Peaks\, TV series\, 1990-1991)
+LAST-MODIFIED:20160608T170655Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Anniversary of Laura Palmer's Death (Twin Peaks)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170202
+DTEND;VALUE=DATE:19170203
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:b5q3vcrl37ojnepsq0iflbi9v0@google.com
+CREATED:20160608T172345Z
+DESCRIPTION:This day celebrates the existential hell endured by formerly je
+ rky TV personality\, Phil Connors\, who strangely relived this day an untol
+ d number of times before breaking the loop by learning to love. \n\nTo cele
+ brate: Rewatch Groundhog Day and/or other Bill Murray classics. \n\n(Ground
+ hog Day\, Film\, 1993)
+LAST-MODIFIED:20160608T174247Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Groundhog Day (Groundhog Day)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161107
+DTEND;VALUE=DATE:19161108
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:ugrqpkpvhr40nsivnpl64jilo8@google.com
+CREATED:20160608T174530Z
+DESCRIPTION:Each year on November 7th\, we remember the courageous actions 
+ of Commander Shepard and the crew of the SSV Normandy against the influence
+  of the mechanical Reaper scourge. The galaxy owes them our thanks. \n\nTo 
+ celebrate: Take the day off work and dig into one of the Mass Effect games 
+ while you wait to see whether the game's creators at Bioware have any new a
+ nnouncements to make about the series.\n\n(Mass Effect Series\, Video game 
+ series\, 2007-Current) 
+LAST-MODIFIED:20160608T175309Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:N7 Day (Mass Effect Series)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170319
+DTEND;VALUE=DATE:19170320
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:q25f2sqt9ugso5sq17ce12k5ls@google.com
+CREATED:20160608T175457Z
+DESCRIPTION:Very little is known about Number Six\, beyond his former life 
+ as a secret agent\, but it is known that March 19th is his birthday. Or it 
+ was\, before his identity was taken away when he arrived in The Village. Es
+ cape is impossible\, but birthdays endure\, even for a prisoner.\n\nTo cele
+ brate: Host a Prisoner watching party. Decorate your place in psychedelic 6
+ 0s decorations and give all of your guests numbers at the door\, and don't 
+ let them leave.\n\n(The Prisoner\, TV series\, 1967-1968)  
+LAST-MODIFIED:20160608T180256Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Number Six's Birthday (The Prisoner)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170525
+DTEND;VALUE=DATE:19170526
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:nrr5nmgqoi3kcf7f38t4vomt98@google.com
+CREATED:20160608T183001Z
+DESCRIPTION:Towel Day honors the galactic wanderer's most versatile and pri
+ ze possession\, the towel. This holiday was inaugurated after the death of 
+ Hitchhiker's Guide To The Galaxy author\, Douglas Adams\, to celebrate his 
+ contributions the canon of interstellar travel. He truly was a frood who kn
+ ew where his towel was at. \n\nTo celebrate: Towel Day is an international 
+ celebration of the works of Douglas Adams that is commonly observed by wear
+ ing a towel over one shoulder. It has even been celebrated on the Internati
+ onal Space Station. So long\, and thanks for all the fish!\n\n(The Hitchhik
+ er's Guide To The Galaxy series)
+LAST-MODIFIED:20160608T183018Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Towel Day (The Hitchhiker's Guide To The Galaxy Series)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19171113
+DTEND;VALUE=DATE:19171114
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:quv725tp9j025hoflvjv0rr7k0@google.com
+CREATED:20160608T183532Z
+DESCRIPTION:On this day in 1970\, Felix Unger was kicked out of his house b
+ y his wife\, forcing him to move in with his pal Oscar. It shall forever be
+  remembered as the day one of the most enduring\, and mismatched relationsh
+ ips of all time began\, inspiring generations to throw spaghetti at the wal
+ l to see if it is done cooking.\n\nTo celebrate: Pick which one of the odd 
+ couple you most identify with either trash your apartment\, or clean it up.
+  Just make sure your roommate picks the opposite attitude.\n\n(The Odd Coup
+ le\, TV series\, 1970-1975) 
+LAST-MODIFIED:20160608T184136Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Odd Couple Day (The Odd Couple)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170324
+DTEND;VALUE=DATE:19170325
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:7cmv7bu4k1estp1tcmpqoph6vc@google.com
+CREATED:20160606T182845Z
+DESCRIPTION:It wasn't so long ago on March 24\, 1984\, that a brain\, an at
+ hlete\, a basket case\, a princess\, and a criminal were forced to serve a 
+ day in detention at Shermer High School. Turns out that they were all a lit
+ tle bizarre\, some were just better at hiding it\, and over the course of o
+ ne Saturday\, they came together as\, The Breakfast Club. \n\nTo celebrate:
+  Bust out that mixtape of earnest 80s ballads and get together with your be
+ st friends for a day-long hangout. Tell some secrets\, have some arguments\
+ , and escape your simple definitions. Does that answer your\, question?\n\n
+ (The Breakfast Club\, Film\, 1985) 
+LAST-MODIFIED:20160608T184300Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Anniversary of The Breakfast Club's Detention (The Breakfast Club)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161216
+DTEND;VALUE=DATE:19170103
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:ikstlu8621764dhcueh0rp5vjk@google.com
+CREATED:20160608T185759Z
+DESCRIPTION:Greatfather Winter arrives on Azeroth to bring gifts to all the
+  humans\, orcs\, taurens\, dwarves\, and other races\, in a worldwide festi
+ val of joy! During this celebration all of the major cities from Orgrimmar 
+ to Stormwind are decorated for the season. And it's a good bet that there w
+ ill be an Abominable Greench sighting. \n\nTo celebrate: During the World o
+ f Warcraft's annual holiday celebration\, unique quests and prizes appear i
+ n the game world\, so it's always a good time to log back in and spend some
+  of your Christmas vacation playing the game.\n\n(World of Warcraft\, Video
+  game\, 2004-Current)
+LAST-MODIFIED:20160608T190722Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Feast of Winter Veil (World of Warcraft)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170505
+DTEND;VALUE=DATE:19170506
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:bd6drdkj5fusqmd8o5bfbeui9c@google.com
+CREATED:20160608T192442Z
+DESCRIPTION:May the Fourth might be Star Wars Day\, but that day is usually
+  reserved for the good guys. May 5th has become a day to remember those bra
+ ve members of the Empire that died at the hands of the Rebel scum. The time
+  for celebrating the Jedi is over. The time of the Sith is at hand. \n\nTo 
+ celebrate: Mourn those who died on both Death Stars by making some anti-Jed
+ i memes.\n\n(Star Wars series)  
+LAST-MODIFIED:20160608T192457Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Revenge of the Fifth (Star Wars)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170325
+DTEND;VALUE=DATE:19170326
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:k49iglafevn4hhmvcspfqc8010@google.com
+CREATED:20160608T211334Z
+DESCRIPTION:It was on this day that Frodo Baggins cast the One Ring (well\,
+  technically Gollum) into the fires of Mount Doom\, destroying the evil art
+ ifact and defeating Sauron. In honor of Frodo's saving of Middle Earth\, th
+ e kingdom of Gondor named this date as their new New Year. \n\nTo celebrate
+ : Honor the occasion by refusing to wear rings\, and casting all evil from 
+ your life\, or simply watch Return of the King.\n\n(Lord of the Rings serie
+ s)
+LAST-MODIFIED:20160608T211351Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Gondorian New Year (Lord of the Rings)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170623
+DTEND;VALUE=DATE:19170624
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:6l4cfntv39mogivg8cfls9npck@google.com
+CREATED:20160608T212022Z
+DESCRIPTION:Celebrated in the country of Terre d'Ange on the occasion of th
+ e winter solstice\, to celebrate the return of the sunlight. It is marked b
+ y an elaborate masquerade ball where the revelers drink Ice Wine\, while fi
+ gures dressed as the Winter Queen and the Sun Prince act out an often polit
+ ically charged charade.\n\nTo celebrate: While the date of this holiday is 
+ here based on the publication date of the first book in the series\, Kushie
+ l's Dart\, you can still celebrate the solstice of Terre d'Ange.Throw a mas
+ ked dance party serving only clear drinks!\n\n(Kushiel's Legacy series\, Bo
+ ok series\, 2001-2008)
+LAST-MODIFIED:20160608T213150Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Longest Night (Kushiel's Legacy Series)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170704
+DTEND;VALUE=DATE:19170705
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:5ignmgh1b3rlkj08f3at1ad708@google.com
+CREATED:20160608T213401Z
+DESCRIPTION:300 years after the signing of the Declaration of Independence\
+ , the Loonies living on Earth's moon declared their independence by an act 
+ of their Ad-Hoc Congress. \n\nTo celebrate: Take time to cheer "TANSTAAFL!"
+  or "There ain't no such thing as a free lunch!" in honor of the novel's lu
+ nar revolutionaries.\n\n(The Moon Is A Harsh Mistress\, Book\, 1966)
+LAST-MODIFIED:20160608T214928Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Lunar Independence Day (The Moon Is A Harsh Mistress)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170124
+DTEND;VALUE=DATE:19170125
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:2ipnr0o81jsqp3g74nmbrm05ss@google.com
+CREATED:20160608T215711Z
+DESCRIPTION:The older\, grittier\, and gruffer of the monster-hunting Winch
+ ester brothers\, Dean was born on this day in 1979. He has since died a num
+ ber of times and been resurrected each time by one miraculous means or anot
+ her. A feat worth celebrating. \n\nTo celebrate: Blast some classic rock an
+ d muscle your way through the first five-and-a-half seasons of Supernatural
+ . Finish the series on\, May 2nd\, Sam Winchester's birthday.\n\n(Supernatu
+ ral\, TV series\, 2005-Current)
+LAST-MODIFIED:20160608T220357Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Dean Winchester's Birthday (Supernatural)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170404
+DTEND;VALUE=DATE:19170405
+RRULE:FREQ=YEARLY;UNTIL=20160403
+DTSTAMP:20160614T205150Z
+UID:llgbmbq58effgpadphv6uphvq8@google.com
+CREATED:20160608T180752Z
+DESCRIPTION:"May the Fourth be with you!" is all the pun power it took to d
+ eclare 5/4 the official day for all things Star Wars. Celebrated by fans an
+ d creators alike\, May 4th is now a yearly extravaganza where fans get to d
+ o as much Star Wars as they can. \n\nTo celebrate: A number of actual event
+ s usually take place on this day\, but if you can't make it to an official 
+ get together\, it is a terrific excuse to rewatch the original trilogy.\n\n
+ (Star Wars series)
+LAST-MODIFIED:20160609T043601Z
+LOCATION:
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Star Wars Day (Star Wars)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161222
+DTEND;VALUE=DATE:19161223
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:aecd8nfddsofhdhbfr2e8b47e8@google.com
+CREATED:20160609T132003Z
+DESCRIPTION:Need to get out of the office Secret Santa? Then it's time to c
+ elebrate the Verdukian Holiday of Mouth Pleasures\, Merlinpeen. Traditional
+ ly this festive time is celebrated by the eating of a free sausage pizza\, 
+ and then participating in a flossing by a blonde virgin.\n\nTo celebrate: D
+ o it just as they do at 30 Rock and put out a bowl of meat cubes adorned wi
+ th a picture of tennis pro Jimmy Connors\, for your whole office to enjoy.\
+ n\n(30 Rock\, TV series\, 2006-2013)
+LAST-MODIFIED:20160609T132503Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Merlinpeen (30 Rock)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170502
+DTEND;VALUE=DATE:19170503
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:km02nutng1roj830vq1ccqgh84@google.com
+CREATED:20160609T132623Z
+DESCRIPTION:The younger\, dreamier of the two monster-hunting Winchester br
+ others was born on this day in 1983. Among the ordeals he has since faced i
+ nclude multiple deaths and becoming a human vessel for Lucifer himself. \n\
+ nTo celebrate: Finish off the second five and a half seasons of Supernatura
+ l you stared on Dean's birthday in January. Supernatural is a long show.\n\
+ n(Supernatural\, TV series\, 2005-Current)
+LAST-MODIFIED:20160609T133603Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Sam Winchester's Birthday (Supernatural)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170408
+DTEND;VALUE=DATE:19170409
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:3ln5mupheid3d5d4dpqviunv7s@google.com
+CREATED:20160609T134253Z
+DESCRIPTION:We mustn't dwell. No\, not today. It's Rex Manning Day! This da
+ y remembers the occasion of once-great pop star Rex Manning visiting Delawa
+ re record store\, Empire Records. His meet-and-greet was a bit underwhelmin
+ g\, but for the emotional employees of the store\, it was day that will nev
+ er be forgotten. \n\nTo celebrate: As though you needed an excuse\, rewatch
+  Empire Records\, or go support your local record shop. And if anyone tries
+  to bring you down\, tell them\, "Not today. Not on Rex Manning Day."\n\n(E
+ mpire Records\, Film\, 1995)
+LAST-MODIFIED:20160609T134331Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Rex Manning Day! (Empire Records)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170504
+DTEND;VALUE=DATE:19170505
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:l75ojt27f62b1ltndk8fs2epec@google.com
+CREATED:20160608T180752Z
+DESCRIPTION:"May the Fourth be with you!" is all the pun power it took to d
+ eclare 5/4 the official day for all things Star Wars. Celebrated by fans an
+ d creators alike\, May 4th is now a yearly extravaganza where fans get to d
+ o as much Star Wars as they can. \n\nTo celebrate: A number of actual event
+ s usually take place on this day\, but if you can't make it to an official 
+ get together\, it is a terrific excuse to rewatch the original trilogy.\n\n
+ (Star Wars series)
+LAST-MODIFIED:20160609T134411Z
+LOCATION:
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Star Wars Day (Star Wars)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161123
+DTEND;VALUE=DATE:19161124
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:6oma0amub9gopetvf7ohsle0mo@google.com
+CREATED:20160609T134929Z
+DESCRIPTION:On this day in 1963\, the BBC first began airing the adventures
+  of the mercurial Timelord\, Dr. Who. Ever since this auspicious debut\, th
+ e Doctor has been flitting through time and space with his ever-changing se
+ ries of companions\, protecting the galaxy from Daleks\, Cybermen\, and the
+  Timelords themselves.\n\nTo celebrate: Throw a Dr. Who party and ask every
+ one to come dressed as their favorite incarnation of the Doctor\, or their 
+ favorite companion (Donna Noble FTW).\n\n(Dr. Who\, TV series\, 1963-Curren
+ t)
+LAST-MODIFIED:20160609T135643Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:TARDIS Day (Dr. Who Series)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160215
+DTEND;VALUE=DATE:19160216
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:pohiloanrirn8bs3nbs9dqj8l8@google.com
+CREATED:20160609T140217Z
+DESCRIPTION:On this day\, we enthusiastically celebrate Annoy Squidward Day
+ . The hallowed holiday supposedly came about when Squidward made the grave 
+ mistake of asking Spongebob what day is was\, and thus Annoy Squidward Day 
+ was established. All of Bikini Bottom can take turns annoying Squidward Ten
+ tacles to their hearts’ delight. Unofficial celebration takes place through
+ out every day of the year.\n\nTo celebrate: There is no better time to simp
+ ly be as annoying as humanly possible. Turn "Annoy Squidward Day" into a da
+ y for annoying the Squidward in your friends and loved ones. \n\n(Spongebob
+  Squarepants\, TV series\, 1999-Current)
+LAST-MODIFIED:20160609T140517Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Annoy Squidward Day (Spongebob Squarepants)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160525
+DTEND;VALUE=DATE:19160526
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:uv7i7skoi2071i3f65g2lp364g@google.com
+CREATED:20160609T141143Z
+DESCRIPTION:"Truth\, Justice\, Freedom\, Reasonably-Priced Love\, and a Har
+ d-Boiled Egg!" This solemn day of remembrance honors the brief (one day) ri
+ se and fall of the People's Republic of Treacle Mine Road on Discworld. The
+  survivors of the revolution visit the Small Gods graveyard and wear a spri
+ g of lilac to honor their fallen countrymen. \n\nTo celebrate: In the real 
+ world\, this day has come to be seen as a day of remembrance for author of 
+ the Discworld series\, Terry Pratchett\, who died of Alzheimer's in 2015. T
+ he occasion is also observed by donning a sprig of lilac.\n\n(Night Watch\,
+  Book\, 2002)  
+LAST-MODIFIED:20160609T141902Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:The Glorious 25th of May (Discworld Series)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170404
+DTEND;VALUE=DATE:19170405
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:r432an9f1212f6mk36dbnr5vho@google.com
+CREATED:20160609T142915Z
+DESCRIPTION:It was a bright cold day in April (the 4th\, according to the M
+ inistry of Truth)\, when the story of Winston Smith's journey into the all-
+ encompassing love of Big Brother\, began. After committing a number of thou
+ ght crimes\, Winston was successfully reeducated by the Ministry of Love\, 
+ showing us all the perils of doubting the party. \n\nTo celebrate: Embrace 
+ the ruling political party.\n\n(1984\, Book\, 1949)  
+LAST-MODIFIED:20160609T143813Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:1984 Day (1984)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19171014
+DTEND;VALUE=DATE:19171015
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:enq3emshiiecrdspihabl5bbr8@google.com
+CREATED:20160609T150334Z
+DESCRIPTION:Whether it was the biblical rapture or some other phenomenon\, 
+ on this date in 2011\, 2% of the world's population simply vanished\, leavi
+ ng behind nothing but... The Leftovers. Let us remember those who may never
+  be found. \n\nTo celebrate: Catch up on The Leftovers\, lest you disappear
+  before finishing the series. \n\n(The Leftovers\, TV series\, 2014-Current
+ )
+LAST-MODIFIED:20160609T150400Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:The Sudden Departure (The Leftovers)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170601
+DTEND;VALUE=DATE:19170602
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:9qasv8chih6pth710le8c1331s@google.com
+CREATED:20160609T152356Z
+DESCRIPTION:Each year on the planet Barrayar\, the Winterfair holiday takes
+  place on the occasion of the winter solstice. The festival is celebrated w
+ ith cardamom bread and brillberry syrup\, as the children wait for Father F
+ rost to deliver his gifts. It also marks the yearly Imperial Ball\, a popul
+ ar wedding day for high-ranking citizens such as Miles Vorkosigan. \n\nTo c
+ elebrate: Since we can't be sure when the winter solstice on Barrayar is\, 
+ this holiday can be assumed to fall on the publication date of the first bo
+ ok in the Vorkosigan Saga\, so why not throw a sci-fi Christmas party at th
+ e beginning of June?!\n\n(Vorkosigan Saga\, Book series\, 1986-Current)
+LAST-MODIFIED:20160609T152411Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Winterfair (Vorkosigan Saga)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161025
+DTEND;VALUE=DATE:19161026
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:7md64sahu0he3ft2id6rfk3bho@google.com
+CREATED:20160609T170417Z
+DESCRIPTION:This holiday remembers October 21\, 2015\, the day Marty McFly 
+ and Dr. Emmett\nBrown flew to the future in a shiny silver\, albeit retro\,
+  DeLorean. They stirred up some trouble\, but eventually corrected their mi
+ stakes and saved the town from a chaotic future where Biff Tannen had his o
+ wn museum. \n\nTo celebrate: While the actual date just passed\, Back To Th
+ e Future Day is still a time to celebrate the genius of the series. Host a 
+ watching party and try to make lucrative predictions about the future.\n\n(
+ Back To The Future II\, Film\, 1989) 
+LAST-MODIFIED:20160609T170757Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Back To The Future Day (Back To The Future)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170311
+DTEND;VALUE=DATE:19170312
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:rllj8or4hoqt6vip51q0a8vdec@google.com
+CREATED:20160609T171659Z
+DESCRIPTION:It's ALIVE! This day marks the birth of the post-modern Prometh
+ eus\, Frankenstein's Monster (despite the name\, it does not refer to Dr. F
+ rankenstein\, but it is a modern misconception). Built from the body parts 
+ of the dead\, the Monster was one of the first artificial men to ever be br
+ ought to life. and certainly the most famous. \n\nTo celebrate: Celebrated 
+ on the anniversary of the publication of Mary Shelley's book\, Frankenstein
+  Day is a perfect occasion to get up to some mad science or choose your fav
+ orite Frankenfilm to rewatch. \n\n(Frankenstein\, Book\, 1818)
+LAST-MODIFIED:20160609T172126Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Frankenstein Day (Frankenstein)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161008
+DTEND;VALUE=DATE:19161009
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:bp8v750np4b1rno5dbnbhd6hvs@google.com
+CREATED:20160609T172546Z
+DESCRIPTION:Travel back to Stars Hollow to celebrate the birth of Rory Gilm
+ ore\, the younger of the beloved Gilmore Girls. It was on this day\, long b
+ efore becoming valedictorian\, and long before she went to Yale that her st
+ ory began. Happy birthday\, Rory.\n\nTo celebrate: GILMORE GIRLS REWATCH. \
+ n\n(Gilmore Girls\, TV series\, 2000-2007)
+LAST-MODIFIED:20160609T173935Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Rory Gilmore's Birthday (Gilmore Girls)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160108
+DTEND;VALUE=DATE:19160109
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:tdqn6src0grpgvmgf6gs55424o@google.com
+CREATED:20160609T174208Z
+DESCRIPTION:A Nexus 6 combat replicant\, Roy Batty was first activated on t
+ his day in 2016. He would go on to lead a group of rogue Nexus 6 replicants
+  to run from the authorities\, before he and his gang were deactivated by b
+ lade runner\, Rick Deckard. As he pointed out in his final breaths\, we're 
+ all just tears in the rain. \n\nTo celebrate: Hold a Blade Runner watching 
+ party and randomly assign your guests replicant/human designations\, then t
+ ry and figure out which one of you is a robot. \n\n(Blade Runner\, Film\, 1
+ 982) 
+LAST-MODIFIED:20160609T174602Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Roy Batty's Inception Day (Blade Runner)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20161129
+DTEND;VALUE=DATE:20161130
+DTSTAMP:20160614T205150Z
+UID:rajjhh532h0gupfdj811b9k538@google.com
+CREATED:20160609T174851Z
+DESCRIPTION:Taken from the everyday family follies of the Dutch comic strip
+ \, Jack\, Jacky and the Juniors\, is a parody of the real Dutch holiday of 
+ Saint Nicholas. One of the characters comes up with the holiday of Saint Pa
+ ncake to trick his mum into baking pancakes. \n\nTo celebrate: The fake hol
+ iday is now very popular on Dutch Facebook and Twitter where people post pi
+ ctures of themselves with pancakes on their heads. \n\n(Jack\, Jacky and th
+ e Juniors\, Comic strip\, 1970-Current)
+LAST-MODIFIED:20160609T175322Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:St. Pancake (Jack\, Jacky and the Juniors)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160818
+DTEND;VALUE=DATE:19160819
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:ab48qbus8ophj025uejihjvta8@google.com
+CREATED:20160609T181339Z
+DESCRIPTION:The demigod (and all around heroic teen)\, Percy Jackson was bo
+ rn on this date to Sally Jackson and Poseidon\, God of the Sea. He would go
+  on to lead a group of demigod pals to stop the titan Kronos from taking ov
+ er the world. Wish him the ancient Greek version of a happy birthday. \n\nT
+ o celebrate: Toga party. \n\n(Percy Jackson & the Olympians\, Book series\,
+  2005-2009) 
+LAST-MODIFIED:20160609T182659Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Percy Jackson's Birthday (Percy Jackson & the Olympians)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160504
+DTEND;VALUE=DATE:19160505
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:fo9frgjjtmp2lojh3uciapl6s8@google.com
+CREATED:20160609T183421Z
+DESCRIPTION:On May 4th\, 2012\, the skies above New York City opened up and
+  an alien race called the Chitauri descended upon the city\, led by the Asg
+ ardian\, Loki. The city would have been razed were it not for the intervent
+ ion of the newly formed Avengers\, including Iron Man\, Captain America\, T
+ hor\, and Black Widow\, among others. On this day we thank them for their b
+ ravery. \n\nTo celebrate: Try to make it through every Marvel movie\, start
+ ing with Iron Man and leading up to The Avengers. Really it's all just one\
+ , long story. \n\n(The Avengers\, Film\, 2012) 
+LAST-MODIFIED:20160609T183440Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Anniversary of the Battle of New York (The Avengers)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161225
+DTEND;VALUE=DATE:19161226
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:8soc2f6bqr06lnknd6v5bta8m4@google.com
+CREATED:20160609T184007Z
+DESCRIPTION:Attention Earthlings! As your new rulers\, we\, The Boov\, have
+  declared that your "Christmas" will now be known as Smekday\, in honor of 
+ our leader Captain Smek! You will be relocated to what you know as "Florida
+ ." Thank you for your assistance. \n\nTo celebrate: Eat a bunch of the Boov
+ ians' favorite fruits\, oranges!\n\n(The True Meaning of Smekday\, Book\, 2
+ 007) 
+LAST-MODIFIED:20160609T184401Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Smekday (The True Meaning of Smekday)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170420
+DTEND;VALUE=DATE:19170421
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:6uqr99te52n0ltcloe95hhs76o@google.com
+CREATED:20160609T185418Z
+DESCRIPTION:Invented by bending unit Bender Rodriquez\, Robanukah is a two-
+ week robot holiday devised to skip work that takes place one month after Ro
+ bomadon. Traditions include not working\, drinking alcohol\, and playing wi
+ th the droidel. But mainly it is about kissing Bender's shiny metal butt.\n
+ \nTo celebrate: Since the robot calendar has not been definitively calculat
+ ed\, Robanukah can be thought to start on the air date of the Futurama epis
+ ode in which it premiered\, "Fear of A Bot Planet." That being said\, you c
+ an pretty much celebrate by taking a couple of weeks off\, drinking beer\, 
+ and breakdancing. Bender would have wanted it that way.\n\n(Futurama\, TV s
+ eries\, 1999-2013)  
+LAST-MODIFIED:20160609T190035Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:The Start of Robanukah (Futurama)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170902
+DTEND;VALUE=DATE:19170903
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:t2o9osc8l0645rhc8l0tuvt30c@google.com
+CREATED:20160609T190749Z
+DESCRIPTION:Not that you needed any help understanding this\, and not this 
+ this calendar is giving you any handouts\, but September 2nd is known as At
+ las Shrugged Day\, due to the date's prominent role in the world of Dagny T
+ aggart and John Galt. It also supposedly marks the day in 1946 that Ayn Ran
+ d began working on the titular objectivist doorstop.\n\nTo celebrate: Help 
+ your fellow citizens by allowing them to help themselves. \n\n(Atlas Shrugg
+ ed\, Book\, 1957) 
+LAST-MODIFIED:20160609T190823Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Atlas Shrugged Day (Atlas Shrugged)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20161026
+DTEND;VALUE=DATE:20161027
+RRULE:FREQ=YEARLY
+EXDATE;VALUE=DATE:20161026
+DTSTAMP:20160614T205150Z
+UID:dm9qnktp9ff4vgom1f8bd4hr4c@google.com
+CREATED:20160609T192548Z
+DESCRIPTION:This multi-day festival is a Talaxian family festival that was 
+ introduced to the Federation ship Voyager by their cook\, Neelix. The festi
+ vities tend to revolve around eating a number of foods such as fermented fr
+ uit compote. \n\nTo celebrate: Load up on snacks and run-through of your fa
+ vorite Star Trek: Voyager episodes\, especially the ones that have a lot of
+  Neelix. \n\n(Star Trek: Voyager\, TV series\, 1995-2001)
+LAST-MODIFIED:20160609T192548Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161026
+DTEND;VALUE=DATE:19161027
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:mc10mdvrkg3lha0rh8li1rhlb0@google.com
+CREATED:20160609T192049Z
+DESCRIPTION:This yearly Talaxian celebration honors the bonds of family wit
+ h traditional feasting and toasts. The tradition was brought to the Federat
+ ion ship Voyager by their Talaxian cook Neelix\, and it was subsequently ce
+ lebrated each year. \n\nTo celebrate: Load up on snacks and watch your favo
+ rite episodes of Star Trek: Voyager.\n\n(Star Trek: Voyager\, TV series\, 1
+ 995-2001)
+LAST-MODIFIED:20160609T201940Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Prixin (Star Trek: Voyager)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19170515
+DTEND;VALUE=DATE:19170516
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:ocog5ps56ppbr8roilms195dv0@google.com
+CREATED:20160609T204028Z
+DESCRIPTION:In the far future\, a celebration of the survival of humanity w
+ ill be held on the third Monday of every May\, known as Miracle Monday. As 
+ time traveller Kristin Wells discovered when she returned to the past to fi
+ nd out the origins of the holiday\, it was originally started to honor the 
+ time that Superman triumphed over Satan. Huh.\n\nTo celebrate: Rejoice both
+  in the continued existence of man and in the strange world we live in wher
+ e there was a novel about Superman defeating Satan with the help of a time-
+ traveller. \n\n(Superman: Miracle Monday\, Book\, 1981)
+LAST-MODIFIED:20160609T204519Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Miracle Monday (Superman: Miracle Monday)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160605
+DTEND;VALUE=DATE:19160606
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:t7rnmtu3419vu22jcokt0nksak@google.com
+CREATED:20160612T171351Z
+DESCRIPTION:Life moves pretty fast. If you don't stop and take a day off\, 
+ you could miss it. Such is the lesson of the most amazing day off in cinema
+  history\, undertaken by the coolest guy in the universe\, Ferris Bueller\,
+  and his friends Sloane and Cameron. \n\nTo celebrate: No matter what day t
+ his anniversary falls on you should consider it a day off. Head out into th
+ e world and try and find an adventure\, before life passes you by.\n\n(Ferr
+ is Bueller's Day Off\, Film\, 1986)
+LAST-MODIFIED:20160612T172310Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Ferris Bueller's Day Off (Ferris Bueller's Day Off)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161127
+DTEND;VALUE=DATE:19161128
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:19jseapiri4q16lddfnd30cuv8@google.com
+CREATED:20160612T172616Z
+DESCRIPTION:On this day in 1973\, Samantha Mulder mysteriously disappeared 
+ from her home while playing a game of Stratego with her brother Fox. He was
+  convinced that she was taken by aliens\, sparking a lifelong quest to get 
+ to the truth behind the abduction. Whether he ever truly got to the bottom 
+ of the mystery is up for debate. \n\nTo celebrate: Run a marathon of X-File
+ s mythology episodes\, and tyr to figure out for yourself exactly what happ
+ ened to Samantha Mulder. \n\n(The X-Files\, TV series\, 1993-2016)
+LAST-MODIFIED:20160612T173122Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Anniversary of Samantha Mulder's Abduction (The X-Files)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160214
+DTEND;VALUE=DATE:19160215
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:99e26tct0pmu4e7hptnvu97rps@google.com
+CREATED:20160612T174601Z
+DESCRIPTION:On this day in 2016\, the military/leisure Nexus 6 replicant kn
+ own as Pris was first activated. She would go on to escape her service and 
+ hideout as a civilian before being decommissioned by blade runner RIck Deck
+ ard. \n\nTo celebrate: Hold a Blade Runner watching party and randomly assi
+ gn your guests replicant/human designations\, then try and figure out which
+  one of you is a robot. \n\n(Blade Runner\, Film\, 1982)
+LAST-MODIFIED:20160612T175223Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Pris Inception Day (Blade Runner)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160309
+DTEND;VALUE=DATE:19160310
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:9ksgn72k4phfl2tkgttggrsvg0@google.com
+CREATED:20160612T175806Z
+DESCRIPTION:The final\, and most significant of the Babylon Project space s
+ tations\, Babylon 5\, was officially brought online on this day in 2256. Th
+ e station would go on to be the central location in bringing many of the ra
+ ces in the galaxy into an unprecedented political alliance. \n\nTo celebrat
+ e: Launch your own rewatch of the Babylon 5 series.\n\n(Babylon 5\, TV seri
+ es\, 1994-1998)
+LAST-MODIFIED:20160612T180752Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Babylon 5 Launch Day (Babylon 5)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161225
+DTEND;VALUE=DATE:19161226
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:sbdne257c0cgelb6muipd8a22k@google.com
+CREATED:20160613T163709Z
+DESCRIPTION:Each year\, Homestar Runner and his fellow inhabitants of Free 
+ Country\, USA\, celebrate Decemberween\, a holiday 55 days after Halloween—
+ the same day\, coincidentally\, as Christmas. Free Country residents exchan
+ ge gifts (except Strong Sad\, of course\, who is always locked in a bathtub
+ )\, sing carols and pile up all the dead rats they’ve accumulated since las
+ t Decemberween (it’s “the most sanitary time of year”).\n\nTo celebrate: Si
+ t down and enjoy a meal of slow-cooked bunny\, a Decemberween delicacy\, bu
+ t beware of Marzipan’s protests.\n\n(Homestar Runner\, Website\, 2000-Curre
+ nt)
+LAST-MODIFIED:20160613T163853Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Decemberween (Homestar Runner)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19161011
+DTEND;VALUE=DATE:19161012
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:hj6qnip6pdfi9qdhg5qildedd8@google.com
+CREATED:20160613T165805Z
+DESCRIPTION:This day remembers the founding of the United Federation of Pla
+ nets\, in 2161. First established by an alliance between the Humans\, Vulca
+ ns\, Andorians\, and the Tellarites\, the Federation has grown to be the ga
+ laxy's most powerful political entity.\n\nTo celebrate: The actual date of 
+ the founding of the Federation differs\, but based on a newspaper clipping 
+ from the movie\, Star Trek: Generations\, it is October 11th. So on this da
+ y\, watch the episodes of Enterprise that chronicle the forming of the Fede
+ ration. \n\n(Star Trek\, TV series)  
+LAST-MODIFIED:20160613T170800Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Federation Day (Star Trek)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19171225
+DTEND;VALUE=DATE:19171226
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:s37oc1r9iqvq0koklcnnucb2v8@google.com
+CREATED:20160613T174752Z
+DESCRIPTION:Thought to be much like Christmas\, Holiday Number 11 is celebr
+ ated in the far future as a day of giving. Once example of the holiday was 
+ seen on a United Galaxy Sanitation Patrol Cruiser which was given a new com
+ puter. Unfortunately it tried to destroy Adam Quark and the rest of the cre
+ w.\n\nTo celebrate: Only a eight episodes of the sci-fi sitcom\, Quark\, we
+ re ever produced\, so why not give the entire series a watch through. \n\n(
+ Quark\, TV series\, 1977-78)
+LAST-MODIFIED:20160613T185737Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Holiday Number 11 (Quark)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160815
+DTEND;VALUE=DATE:19160816
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:hb20qgbnp638knekor69bqomn4@google.com
+CREATED:20160614T145535Z
+DESCRIPTION:"To Freedom\, Friendship\, and Frunt!" goes the traditional Klo
+ rdny toast. In the 30th century\, on the week containing August 15th\, the 
+ United Planets celebrate Klordny Week\, with dancing\, drinking\, and gener
+ al partying. The true meaning of the festival is unknown\, but that has nev
+ er stopped the Legion of Superheroes from letting loose during the celebrat
+ ion. \n\nTo celebrate: Get your hands on some old issues of the Legion of S
+ uperheroes comic books\, and spend the week reliving the adventures of Satu
+ rn Girl\, Cosmic Boy\, Matter Eater Lad\, and the rest of the 30th century'
+ s finest heroes. For Frunt!\n\n(Legion of Superheroes\, Comic book series)
+LAST-MODIFIED:20160614T150752Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Klordny (Legion of Superheroes)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160522
+DTEND;VALUE=DATE:19160523
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:2n0vkk67q28nd1lq9m7g2mscsk@google.com
+CREATED:20160614T151735Z
+DESCRIPTION:It doesn't take a coke-addled genius to figure out why we celeb
+ rate on this day! Why it is in honor of the world's greatest detective\, Sh
+ erlock Holmes\, of course! This day honors the world-renowned sleuth whose 
+ capers and adventures have inspired nearly every detective (real or fiction
+ al) since. The day actually falls on the birthday of Sir Arthur Conan Doyle
+ \, who famously chronicled the detective's adventures.\n\nTo celebrate: Pay
+  a visit to 221b Baker Street\, Holmes' fictional address\, which has been 
+ adopted by the Sherlock Holmes Museum in London. If you can't make it there
+ \, take in your favorite incarnation of the famous detective\, who stands a
+ s the most portrayed character of all time.\n\n(Sherlock Holmes)
+LAST-MODIFIED:20160614T152648Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Sherlock Holmes Day (Sherlock Holmes)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:19160626
+DTEND;VALUE=DATE:19160627
+RRULE:FREQ=YEARLY
+DTSTAMP:20160614T205150Z
+UID:sbkh6171pt1ojb30lj3sdtcld0@google.com
+CREATED:20160614T163942Z
+DESCRIPTION:June 26th is a dark day in Gotham City\, as it will long be rem
+ embered as the day that the city's unofficial royalty\, Thomas and Martha W
+ ayne were gunned down\, leaving a theater with their son\, Bruce. Officiall
+ y\, Batman Day is September 26th\, but in comic book continuity\, this is t
+ he widely accepted day on which Bruce Wayne's parents were murdered\, and B
+ atman was (arguably) born.\n\nTo celebrate: Pick your favorite version of B
+ atman's origin story (our money is on the animated series)\, and relive the
+  Birth of the Bat.\n\n(Batman\, Comic books) 
+LAST-MODIFIED:20160614T171953Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:The Murder of Thomas and Martha Wayne (Batman)
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,11 @@
+<h2>Editing <%= @holiday.name %></h2>
+<% if flash[:bad_job] %>
+  <ol>
+    <% flash[:bad_job].each do |error| %>
+      <li>
+        <%= error %>
+      </li>
+    <% end %>
+  </ol>
+<% end %>
+<%= render "form" %>

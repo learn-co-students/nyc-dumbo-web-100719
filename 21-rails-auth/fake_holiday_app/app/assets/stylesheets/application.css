@@ -1,0 +1,292 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+/* mini reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* snowy */
+html.snowy:before { 
+  content:''; 
+  position:fixed; 
+  z-index:-1; 
+  left:-500px; 
+  top:-1000px; 
+  right:0; 
+  bottom:0;
+  opacity: 0.8;
+  background:url(https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png); 
+  -webkit-animation:snow-1 10s linear infinite; 
+  animation:snow-1 10s linear infinite;
+}
+html.snowy:after { 
+  content:''; 
+  position:fixed; 
+  z-index:-1; 
+  left:-100px; 
+  top:-400px; 
+  right:0; 
+  bottom:0;
+  background:url(https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png); 
+  -webkit-animation:snow-2 10s linear infinite; 
+  animation:snow-2 10s linear infinite;
+}
+html.snowy > body:after { 
+  content:''; 
+  position:fixed; 
+  z-index:-1; 
+  left:0; 
+  top:-300px; 
+  right:-100px; 
+  bottom:0;
+  background:url(https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png); 
+  -webkit-animation:snow-3 10s linear infinite; 
+  animation:snow-3 10s linear infinite;
+}
+@keyframes snow-1 {
+  0% { transform:translate3d(0,0,0) }
+  50% { transform:translate3d(500px,500px,0) }
+  100% { transform:translate3d(500px,1000px,0) }
+}
+@keyframes snow-2 {
+  0% { transform:translate3d(0,0,0) }
+  50% { transform:translate3d(100px,200px,0) }
+  100% { transform:translate3d(0,400px,0)}
+}
+@keyframes snow-3 {
+  0% { transform:translate3d(0,0,0) }
+  50% { transform:translate3d(-100px,150px,0) }
+  100% { transform:translate3d(0,300px,0) }
+}
+
+/* layout */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #111;
+  color: #f1f1f1;
+}
+
+.main .container {
+  padding: 1.5em 3em;
+  background-color: rgba(0,0,0,0.7);
+  min-height: 100vh;
+}
+
+/* typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Press Start 2P', cursive;
+  margin: 1em 0 1.5em;
+  line-height: 1.25em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* menu */
+.menu {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #d32323;
+}
+
+.menu .container,
+.menu nav {
+  display: flex;
+}
+
+.menu .logo {
+  background-image: url("logo.png");
+  background-size: 80px 40px;
+  width: 80px;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin-right: 2em;
+}
+
+.menu .item {
+  padding: 1em;
+  color: #f1f1f1;
+  flex: 0 0 auto;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+
+.menu a.item:hover {
+  opacity: 0.9;
+  background-color: #bd1f1f;
+}
+
+.menu .right {
+  margin-left: auto;
+  display: flex;
+}
+
+/* holidays */
+.holidays {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.holidays .card {
+  padding: 20px;
+  margin: 20px 5px;
+  text-align: center;
+  height: 200px;
+  color: #f1f1f1;
+  background-color: #226F54;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 1 calc(33% - 1em);
+}
+
+.holidays .card:hover {
+  background-color: rgb(40, 133, 101);
+}
+
+/* responsive width */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 899px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+  }
+}
+
+/* forms */
+.form {
+  width: 100%;
+  background-color: #226F54;
+  padding: 1em;
+}
+
+.form label {
+  display: block;
+  font-family: 'Press Start 2P', cursive;
+  margin: 1em 0 0.25em;
+}
+
+.form input, 
+.form select,
+.form textarea {
+  font-family: 'Press Start 2P', cursive;
+  width: 100%;
+  border: 1px solid rgba(34,36,38,.15);
+  padding: 0.5em 1em;
+}
+
+.form select {
+  outline: 0;
+  background: #fff;
+  border-radius: 0;
+	line-height:normal;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	appearance:none;
+}
+
+.form input[type=checkbox],
+.form input[type=submit] {
+  width: auto;
+}
+
+.form label.checkbox {
+  display: initial;
+}
+
+/* buttons */
+button,
+input[type=submit] {
+  display: block;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0.75em 1.5em;
+  transition: opacity 0.2s ease;
+  margin-right: 1em;
+  font-family: "Press Start 2P";
+  padding: 1em;
+  border: 2px solid #111;
+}
+
+button:hover,
+input[type=submit]:hover {
+  background-color: #fff;
+}
+
+.button_to {
+  display: inline-block;
+  padding: 1em 0;
+}
+
+/* info page */
+.info-page {
+  display: flex;
+}
+
+.info-page__image {
+  flex: 0 1 calc(33% - 2em); 
+}
+
+.info-page__image img {
+  width: 100%;
+}
+
+.info-page__main {
+  margin: 0 1em;
+  padding: 0 1em;
+  flex: 0 2 calc(66% - 2em)
+}
+
+.info-page__list {
+  margin: 1em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.info-page__list li {
+  margin: 1em 0;
+}
+
+.info-page__list li a {
+  font-family: "Press Start 2P";
+  color: #f1f1f1;
+  font-size: 14px;
+}
+
