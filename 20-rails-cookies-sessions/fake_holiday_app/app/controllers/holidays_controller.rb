@@ -13,6 +13,7 @@ class HolidaysController < ApplicationController
   # get /holidays/:id
   # set_holiday
   def show
+    session[:page_views_remaining] = session[:page_views_remaining] - 1
     # render :show
   end
 

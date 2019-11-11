@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   # get "/holidays/:id/edit", to: "holidays#edit"
   # patch "/holidays/:id", to: "holidays#update"
   # delete "/holidays/:id", to: "holidays#destroy"
-
+  
+  post "/sessions/reset", to: "sessions#reset"
 end

@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 2019_11_04_162251) do
     t.string "date"
     t.string "description"
     t.boolean "gifts_needed", default: true
-    t.boolean "canceled"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
