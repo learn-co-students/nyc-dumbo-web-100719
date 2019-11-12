@@ -228,6 +228,10 @@ a {
   display: initial;
 }
 
+.form .messages {
+  padding: 1em;
+}
+
 /* buttons */
 button,
 input[type=submit] {

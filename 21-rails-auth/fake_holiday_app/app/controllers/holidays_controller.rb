@@ -53,7 +53,7 @@ class HolidaysController < ApplicationController
     if @holiday.valid?
       redirect_to @holiday
     else
-      flash[:bad_job] = @holiday.errors.full_messages
+      flash[:errors] = @holiday.errors.full_messages
       redirect_to "/holidays/#{@holiday.id}/edit"
     end
 

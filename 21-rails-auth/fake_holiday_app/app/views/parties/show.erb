@@ -2,3 +2,6 @@
 <h3><%= @party.date %></h3>
 <em><%= @party.location %></em>
 <p><%= "🤠" * @party.headcount %></p>
+
+<%= button_to "Edit", edit_party_path(@party), method: :get %>
+<%= button_to "Delete", @party, method: :delete %>

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :users
-  resources :parties, only: [:show, :new, :create]
+  resources :parties, only: [:show, :new, :create, :edit, :update, :destroy]
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   
   resources :holidays #, only: [:index, :show, :new, :create, :edit, :update, :destroy]
@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   # patch "/holidays/:id", to: "holidays#update"
   # delete "/holidays/:id", to: "holidays#destroy"
 
-  get "/signup", to: "users#new"
+  get "/signup", to: "users#new", as: "signup"
   
   post "/sessions/reset", to: "sessions#reset"
 end

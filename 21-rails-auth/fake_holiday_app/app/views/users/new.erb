@@ -7,5 +7,15 @@
   <%= f.label :password %>
   <%= f.password_field :password %>
   
+  <% if flash[:errors] %>
+    <ol class="messages">
+      <% flash[:errors].each do |error| %>
+        <li>
+          <%= error %>
+        </li>
+      <% end %>
+    </ol>
+  <% end %>
+  
   <%= f.submit %>
 <% end %>

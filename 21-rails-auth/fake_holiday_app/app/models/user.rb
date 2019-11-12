@@ -1,6 +1,8 @@
 class User < ApplicationRecord
   has_secure_password
-  
+
+  validates :username, presence: true, uniqueness: true
+
   # def password=(plaintext_password)
   #   # run through BCRYPT
   #   encrypted_password = BCrypt::Password.create(plaintext_password)

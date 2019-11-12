@@ -9,9 +9,15 @@ class UsersController < ApplicationController
     user_params = params.require(:user).permit(:username, :password)
     user = User.create(user_params)
 
-    session[:user_id] = user.id
+    if user.valid?
+      session[:user_id] = user.id
 
-    # response/redirect?
-    redirect_to holidays_path
+      # response/redirect?
+      redirect_to holidays_path
+    else
+      flash[:errors] = user.errors.full_messages
+      redirect_to signup_path
+    end
+
   end
 end
