@@ -19,7 +19,12 @@
         </nav>
         <nav class="right">
           <span class="item">
-            Welcome, User!
+            <% if @current_user %>
+              Welcome, <%= @current_user.username %>!
+            <% else %>
+              <%= link_to "Signup", "/signup", class: "item" %>
+              <%= link_to "Login", "/login", class: "item" %>
+            <% end %>
           </span>
         </nav>
       </div>
