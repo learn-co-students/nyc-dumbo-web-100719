@@ -34,6 +34,10 @@ calendar.events.each do |event|
   end
 end
 
+30.times do
+  User.create(username: Faker::Name.first_name.downcase, password: "password123")
+end
+
 # let's add some parties too
 Holiday.all.each do |holiday|
   begin
@@ -46,7 +50,8 @@ Holiday.all.each do |holiday|
       name: "#{Faker::Name.first_name}'s #{holiday.name} Party",
       location: Faker::Address.full_address, 
       date: date,
-      headcount: rand(0..100)
+      headcount: rand(0..100),
+      user: User.order("RANDOM()").first
     )
   end
 end

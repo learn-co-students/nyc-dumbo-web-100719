@@ -13,6 +13,9 @@ Rails.application.routes.draw do
   # delete "/holidays/:id", to: "holidays#destroy"
 
   get "/signup", to: "users#new", as: "signup"
+  get "/login", to: "sessions#new", as: "login"
+  post "/login", to: "sessions#create"
+  delete "/logout", to: "sessions#destroy", as: "logout"
   
   post "/sessions/reset", to: "sessions#reset"
 end

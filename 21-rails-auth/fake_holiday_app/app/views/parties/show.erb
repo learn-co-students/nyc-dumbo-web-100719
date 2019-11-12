@@ -3,5 +3,9 @@
 <em><%= @party.location %></em>
 <p><%= "🤠" * @party.headcount %></p>
 
-<%= button_to "Edit", edit_party_path(@party), method: :get %>
-<%= button_to "Delete", @party, method: :delete %>
+<% if @current_user == @party.user %>
+  
+  <%= button_to "Edit", edit_party_path(@party), method: :get %>
+  <%= button_to "Delete", @party, method: :delete %>
+
+<% end %>

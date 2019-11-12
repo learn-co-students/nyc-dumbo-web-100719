@@ -15,15 +15,16 @@
       <div class="container">
         <nav>
           <%= link_to "Holidays", holidays_path, class: "item" %>
-          <%= link_to "New Holiday", new_holiday_path, class: "item" %>
+          <%= link_to "New Party", new_party_path, class: "item" %>
         </nav>
         <nav class="right">
           <span class="item">
             <% if @current_user %>
               Welcome, <%= @current_user.username %>!
+              <%= link_to "Logout", logout_path, method: :delete, class: "item" %>
             <% else %>
-              <%= link_to "Signup", "/signup", class: "item" %>
-              <%= link_to "Login", "/login", class: "item" %>
+              <%= link_to "Signup", signup_path, class: "item" %>
+              <%= link_to "Login", login_path, class: "item" %>
             <% end %>
           </span>
         </nav>

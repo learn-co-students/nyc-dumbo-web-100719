@@ -1,5 +1,6 @@
 class PartiesController < ApplicationController
   before_action :set_party, only: [:show, :edit, :update, :destroy]
+  before_action :authorize_user, only: [:edit, :update, :destroy]
 
   # get /parties/:id
   def show
@@ -8,18 +9,23 @@ class PartiesController < ApplicationController
 
   # get /parties/new
   def new
-    # model
-    @party = Party.new
-    @holidays = Holiday.all
+    # if session[:user_id]
+      # model
+      @party = Party.new
+      @holidays = Holiday.all
 
-    # response
-    # render :new
+      # response
+      # render :new
+    # else
+      # redirect_to login_path
+    # end
   end
 
   # post /parties
   def create
     # model
-    @party = Party.new(party_params)
+    merged_params = party_params.merge(user_id: @current_user.id)
+    @party = Party.new(merged_params)
 
     if @party.valid?
       @party.save
@@ -36,6 +42,7 @@ class PartiesController < ApplicationController
 
   def edit
     @holidays = Holiday.all
+    # render :edit
   end
 
   def update
@@ -68,4 +75,9 @@ class PartiesController < ApplicationController
   def party_params
     params.require(:party).permit(:name, :location, :date, :headcount, :holiday_id)
   end
+
+  def authorize_user
+    redirect_to @party unless @current_user == @party.user
+  end
+
 end

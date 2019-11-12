@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   before_action :set_page_view
   before_action :set_current_user
+  before_action :authorized
 
   private
 
@@ -13,5 +14,9 @@ class ApplicationController < ActionController::Base
     #   session[:page_views_remaining] = 5
     # end
     session[:page_views_remaining] ||= 5
+  end
+
+  def authorized
+    redirect_to login_path unless @current_user
   end
 end
