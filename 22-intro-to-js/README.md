@@ -6,9 +6,22 @@
   * Week 1 - Becoming a front-end developer
   * Week 2 - Becoming a better front-end developer & understanding JS fundamentals
   * Week 3 - Project week & shiny new JS
-  
+
   * Three essential pillars of front-end web programming
+    - HTML: The content, structure of the site
+    - CSS: Experience and interact with the site aesthetically
+    - JS: Actions and interactivity (without page refresh)
+
     * Three essential pillars of JS
+      - Event Listening: Listening for an event (if an event happens, some snippet of code will execute)
+      - DOM Manipulation: Document Object Model will change based on the actions
+      - Communicate with the server: Pulling/putting data into your API without refreshing the page
+
+      When X event happens,
+      we will do Y fetch,
+      and slap Z on/off the DOM.
+
+
 
 # Cool sites
 
