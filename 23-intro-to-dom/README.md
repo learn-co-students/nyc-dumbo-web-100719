@@ -47,6 +47,8 @@
 
 # DOM questions
 * What is the DOM and why do I care about it?
+  - Document Object Model: Manipulate the contents of the site without refreshing the page
+
 * What does it mean that the DOM is a tree?
 * What are the key parts of an HTML tag?
   * What is an attribute?
