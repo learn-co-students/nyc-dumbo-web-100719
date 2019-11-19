@@ -10,20 +10,85 @@ let tacoButton = document.getElementById('taco')
 let emojiList = document.querySelector("#blobs")
 
 tacoButton.addEventListener("click", () => {
-  let newEmojiLi = document.createElement("li")
-  newEmojiLi.innerText = "🌮"
-  emojiList.append(newEmojiLi)
+  takeAnEmojiAndMakeItAnLi("🌮")
 })
 
 
 let emojiForm = document.getElementById('emoji-form')
 emojiForm.addEventListener("submit", event => {
   event.preventDefault();
-
   let theActualEmoji = event.target.emoji.value
-
-  let newEmojiLi = document.createElement("li")
-  newEmojiLi.innerText = theActualEmoji
-  emojiList.append(newEmojiLi)
+  takeAnEmojiAndMakeItAnLi(theActualEmoji)
 
 })
+
+// let takeAnEmojiAndMakeItAnLi = (emoji) => {
+  // let newEmojiLi = document.createElement("li")
+  // newEmojiLi.innerText = emoji
+  // emojiList.append(newEmojiLi)
+// }
+
+
+// DELEGATION (Only 1 event listener)
+// 1) Find a stable parent on the HTML
+// 2) Add an event listener
+// 3) Gate it behind an if statement
+// 4) Do the DOM Manipulation
+
+// emojiList.addEventListener("click", (event) => {
+//   if (event.target.tagName === "LI"){
+//     event.target.remove()
+//   }
+// })
+
+
+
+// CLOSURE
+// As I add an element to the DOM, it will also come with an event listener
+
+function takeAnEmojiAndMakeItAnLi(emoji){
+  let newEmojiLi = document.createElement("li")
+  newEmojiLi.innerText = emoji
+  emojiList.append(newEmojiLi)
+
+  // emojiList.innerHTML += `<li>${emoji}</li>`
+
+  newEmojiLi.addEventListener("click", () => {
+    newEmojiLi.remove()
+  })
+}
+
+let theOriginalSixLis = document.querySelectorAll("li")
+// let lis = document.getElementsByTagName('li')
+theOriginalSixLis.forEach((emojiLi) => {
+
+  emojiLi.addEventListener("click", () => {
+    emojiLi.remove()
+  })
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
