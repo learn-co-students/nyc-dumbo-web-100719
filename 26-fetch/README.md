@@ -19,6 +19,27 @@ And manipulate the DOM Z way
 
 
 
+Asynchronous
+JavaScript
+And
+XML (Extensive Markup Language) / JSON - JavaScript Object Notation
+
+- Used for loading information from the browser to the server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
