@@ -28,4 +28,26 @@ class FoxesController < ApplicationController
     def fox_params
         params.permit(:name, :img_url)
     end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 end
