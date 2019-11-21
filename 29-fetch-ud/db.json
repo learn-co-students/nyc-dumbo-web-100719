@@ -1,0 +1,41 @@
+{
+  "to_do_items": [
+    {
+      "id": 1,
+      "title": "Make fetch happen",
+      "done": true
+    },
+    {
+      "id": 2,
+      "title": "Make slack emojis",
+      "done": true
+    },
+    {
+      "id": 3,
+      "title": "Master javascript",
+      "done": false
+    },
+    {
+      "title": "Eat Laugh Love",
+      "done": false,
+      "id": 4
+    }
+  ],
+  "snacks": [
+    {
+      "name": "Cinnamon",
+      "yumminess": 5,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Nutella",
+      "yumminess": 10
+    },
+    {
+      "name": "Hot Flaming Cheetos",
+      "yumminess": 57,
+      "id": 3
+    }
+  ]
+}
