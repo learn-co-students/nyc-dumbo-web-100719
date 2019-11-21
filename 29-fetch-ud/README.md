@@ -22,8 +22,15 @@
 
 ## Update
 
+1. When we click on the checkbox event happens
+2. Make PATCH '/to_do_items/:id' fetch happen
+3. Alter the LI on the DOM!
+
 ## Delete
 
+1. When a click event happens
+2. Make DELETE '/to_do_items/:id' (Destroy) fetch happen
+3. Slap the LI off the DOM!
 
 
 
