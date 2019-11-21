@@ -10,7 +10,15 @@
 
 ## Read
 
+1. When DOMContentLoaded/defer event happens
+2. Make GET '/to_do_items' (Index) fetch happen
+3. Slap each of the ToDoItems on the DOM!
+
 ## Create
+
+1. When submit the form happens
+2. Make POST '/to_do_items' (Create) fetch happen
+3. Slap the newly created toDoItem on the DOM!
 
 ## Update
 
