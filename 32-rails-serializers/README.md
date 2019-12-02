@@ -14,7 +14,7 @@
 
 # Starting off Rails project
 
-Teacher -< Subject -< Assignment
+Teacher -< Classroom -< Assignment
 
 
 When we build out a Rails API, we want to be sure to run the configuration of:
@@ -115,7 +115,31 @@ class ToySerializer < ActiveModel::Serializer
 end
 ```
 
+Inside your `config/initializers/active_model_serializers.rb`
 
 ```rb
   ActiveModelSerializers.config.default_includes = '**'
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
