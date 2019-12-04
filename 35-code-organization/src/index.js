@@ -12,3 +12,10 @@ addBtn.addEventListener('click', () => {
     toyFormContainer.style.display = 'none'
   }
 })
+
+adaptor.getAllBoxes()
+.then((boxes) => {
+  boxes.forEach((box) => {
+    new JSBox(box);
+  })
+})
