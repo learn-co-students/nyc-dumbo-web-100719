@@ -13,28 +13,38 @@
   }
 
   const eric2020 = {
-    name: "Eric",
-    fullName: "Hyeok Jung Kim",
-    showering: false,
-    eating: ["healthy", "clean"]
+    showering: "something specific",
+    ... regularStandardsOfLiving,
+    ... oldEric,
   }
+
+  // console.log(eric2020);
 
   const newYearSameMe = {
     ...oldEric
   }
 
   oldEric.eating.push("chicken")
+  //
+  // console.log(newYearSameMe.eating)
+  //
+  // console.log(newYearSameMe)
+  // console.log(newYearSameMe === newYearSameMe)
+  // console.log(newYearSameMe === oldEric)
 
-  console.log(newYearSameMe.eating)
 
-  console.log(newYearSameMe)
-  console.log(newYearSameMe === newYearSameMe)
-  console.log(newYearSameMe === oldEric)
+
+
+
 
 // Could I do it to an array?
 
 
   const bodyParts = ["head", "shoulders", "knees", "toes"];
+
+  const song = [...bodyParts, ...bodyParts, "eyes", "ears", "mouth", "nose", ...bodyParts]
+
+  console.log(song);
 
 
 
@@ -44,3 +54,7 @@
   function canTakeFourArguments(arg1, arg2, arg3, arg4) {
     console.log(arg1, arg2, arg3, arg4)
   }
+
+
+  // canTakeFourArguments("head", "shoulders", "knees", "toes")
+  canTakeFourArguments(...bodyParts)
