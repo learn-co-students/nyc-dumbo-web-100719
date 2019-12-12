@@ -5,7 +5,9 @@ class MessageList extends React.Component {
 
   render(){
     const newArray = this.props.messages.map(message => 
-      <Message key={ message.id } text={ message.text } />)
+      <Message key={ message.id } 
+              message={ message } 
+              updateLikes={ this.props.updateLikes } />)
 
     return (<ol>
       {

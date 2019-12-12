@@ -3,12 +3,12 @@
     {
       "text": "Bark!",
       "id": 10,
-      "likes": 0
+      "likes": 12
     },
     {
       "text": "Bark!",
       "id": 11,
-      "likes": 0
+      "likes": 22
     },
     {
       "text": "Bark!",
@@ -18,7 +18,7 @@
     {
       "text": "Bark!",
       "id": 13,
-      "likes": 0
+      "likes": 9
     },
     {
       "text": "Bark!",
@@ -28,7 +28,7 @@
     {
       "text": "Bark!",
       "id": 15,
-      "likes": 0
+      "likes": 5
     },
     {
       "text": "Bark!",
@@ -88,6 +88,56 @@
     {
       "text": "Here is my favorite rock",
       "id": 27,
+      "likes": 0
+    },
+    {
+      "text": "Bark!",
+      "id": 30,
+      "likes": 0
+    },
+    {
+      "text": "Bark!",
+      "id": 31,
+      "likes": 0
+    },
+    {
+      "text": "Bark!",
+      "id": 32,
+      "likes": 0
+    },
+    {
+      "text": "Bark!",
+      "id": 33,
+      "likes": 0
+    },
+    {
+      "text": "Bark!",
+      "id": 34,
+      "likes": 0
+    },
+    {
+      "text": "Bark!",
+      "id": 35,
+      "likes": 0
+    },
+    {
+      "text": "Bark!",
+      "id": 36,
+      "likes": 0
+    },
+    {
+      "text": "Bark!",
+      "id": 37,
+      "likes": 0
+    },
+    {
+      "text": "Bark!",
+      "id": 38,
+      "likes": 0
+    },
+    {
+      "text": "Bark!",
+      "id": 39,
       "likes": 0
     }
   ]

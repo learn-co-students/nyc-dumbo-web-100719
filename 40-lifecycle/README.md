@@ -7,8 +7,6 @@
 
 http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
-
-
 ## Lifting up state
 * Why is it important to have a single source of truth for data in a react state?
 * Will having all my data in a single place sometimes make my state updates harder?

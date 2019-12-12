@@ -7,33 +7,26 @@ import uuid from 'uuid'
 export default class MessageContainer extends React.Component {
 
   state = {
+    messages: []
+  }
 
-    messages: [
-      {
-        id: 1,
-        text: "Purrrr!"
-      },
-      {
-        id: 2,
-        text: "Purrrr!"
-      },
-      {
-        id: 3,
-        text: "Purrrr!"
-      },
-      {
-        id: 4,
-        text: "Purrrr!"
-      },
-      {
-        id: 5,
-        text: "Hello good morning!"
-      },
-      {
-        id: 6,
-        text: "Ork!"
-      },
-    ]
+  updateLikes = (id) => {
+    console.log(id)
+
+    const messages = this.state.messages.map(message => {
+        if (message.id === id) {
+          return {
+            ...message,
+            likes: message.likes + 1,
+          }
+        } else {
+          return message
+        }
+      })
+
+    this.setState({
+      messages: messages
+    })
   }
 
   newMessage = (messageText) => {
@@ -47,10 +40,20 @@ export default class MessageContainer extends React.Component {
     })
   }
 
+  componentDidMount() {
+    // debugger
+    fetch("http://localhost:3000/messages")
+      .then(r => r.json())
+      .then(data => this.setState({ messages: data }))
+
+  }
+
   render(){
+    console.log("I rendered", this.state.messages)
     return (<section className="MessageContainer">
       <h2>#tools</h2>
-      <MessageList messages={ this.state.messages }  />
+      <MessageList messages={ this.state.messages } 
+                   updateLikes={ this.updateLikes } />
       <MessageForm newMessage={ this.newMessage } />
     </section>)
   }
