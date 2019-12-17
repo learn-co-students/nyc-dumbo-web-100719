@@ -2,22 +2,22 @@
   "vegetables": [
     {
       "id": 1,
-      "title": "potato",
+      "name": "potato",
       "color": "brown"
     },
     {
       "id": 2,
-      "title": "tomato",
+      "name": "tomato",
       "color": "red"
     },
     {
       "id": 3,
-      "title": "broccoli",
+      "name": "broccoli",
       "color": "green"
     },
     {
       "id": 4,
-      "title": "squash",
+      "name": "squash",
       "color": "orange"
     }
   ],
