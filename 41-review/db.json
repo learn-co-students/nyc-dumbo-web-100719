@@ -1,0 +1,31 @@
+{
+  "vegetables": [
+    {
+      "id": 1,
+      "title": "potato",
+      "color": "brown"
+    },
+    {
+      "id": 2,
+      "title": "tomato",
+      "color": "red"
+    },
+    {
+      "id": 3,
+      "title": "broccoli",
+      "color": "green"
+    },
+    {
+      "id": 4,
+      "title": "squash",
+      "color": "orange"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}
