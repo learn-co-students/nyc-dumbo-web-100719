@@ -17,48 +17,12 @@ class LogIn extends React.Component {
 
   logInSubmitted = (event) => {
     event.preventDefault()
-    fetch("http://localhost:3000/login", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        username: this.state.username,
-        password: this.state.password
-      })
-    }).then(res => res.json())
-      .then(data => {
-        if (data.errors) {
-          this.setState({
-            errors: data.errors
-          })
-        } else {
-          this.props.setToken(data)
-        }
-      })
+    
   }
 
   signUpSubmitted = (event) => {
     event.preventDefault()
-    fetch("http://localhost:3000/users", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        username: this.state.username,
-        password: this.state.password
-      })
-    }).then(res => res.json())
-      .then(data => {
-        if (data.errors) {
-          this.setState({
-            errors: data.errors
-          })
-        } else {
-          this.props.setToken(data)
-        }
-      })
+    
   }
 
   render(){
