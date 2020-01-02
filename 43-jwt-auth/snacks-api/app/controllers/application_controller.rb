@@ -4,7 +4,6 @@ class ApplicationController < ActionController::API
   private
 
   def create_token(user_id)
-    byebug    
     JWT.encode({ user_id: user_id }, hmac_secret, "HS256")
   end
 

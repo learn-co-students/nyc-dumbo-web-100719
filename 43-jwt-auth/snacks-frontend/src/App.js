@@ -7,13 +7,13 @@ import SnackDashboard from './SnackDashboard'
 class App extends React.Component {
 
   state = {
-    loggedInUserId: 1,
+    loggedInUserId: null,
+    token: null
   }
 
   logOutClick = () => {
-    localStorage.removeItem("userId");
-    localStorage.removeItem("token");
-
+    localStorage.removeItem("loggedInUserId")
+    localStorage.removeItem("token")
     this.setState({
       loggedInUserId: null,
       token: null
@@ -21,7 +21,24 @@ class App extends React.Component {
   }
 
   loggedIn(){
-    return !!this.state.loggedInUserId;
+    return !!this.state.token
+  }
+
+  componentDidMount(){
+    this.setState({
+      token: localStorage.token,
+      loggedInUserId: localStorage.loggedInUserId
+    })
+  }
+
+  setToken = (token, loggedInUserId) => {
+    localStorage.token = token;
+    localStorage.loggedInUserId = loggedInUserId;
+
+    this.setState({
+      token: token,
+      loggedInUserId: loggedInUserId
+    })
   }
 
   render(){
@@ -32,9 +49,9 @@ class App extends React.Component {
               }</header>
       {
         this.loggedIn()
-          ? <SnackDashboard token={ this.state.token } 
-                            loggedInUserId={ this.state.loggedInUserId } />
-          : <LogIn setToken={ this.setToken } />
+          ? <SnackDashboard loggedInUserId={ this.state.loggedInUserId } 
+                            token={ this.state.token } />
+          : <LogIn setToken={ this.setToken }  />
       }
     </main>);
   }
